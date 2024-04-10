@@ -15,8 +15,9 @@ The toolchain performs the following operations:
 
 Before running the toolchain, make sure you have the following software installed on your system:
 
-- SOLC (Solidity Compiler)
-- Eldarica
+- SOLC
+- Scala
+- Eldarica (pre-requisite Scala)
 - Logtalk
 - Graphviz
 
