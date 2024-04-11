@@ -6,6 +6,7 @@ required_packages = [
     "scala",
   #  "logtalk",
   # "graphviz"
+  "gprolog",
 ]
 
 # Funzione per controllare se una dipendenza è installata
