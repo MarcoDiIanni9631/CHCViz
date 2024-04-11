@@ -1,10 +1,9 @@
 import subprocess
-import parser
-import CheckRequirement
+#import parser
+#import CheckRequirement
 
-def solidity_to_smtlib(contract_file,commandSoltoSmtlib):
+def solidity_to_smtlib(commandSoltoSmtlib):
 
-    commandSoltoSmtlib= commandSoltoSmtlib+contract_file
     # Your code here to convert Solidity contract to SMT-LIB format
   
     # Open solidity file to save the output
