@@ -1,6 +1,6 @@
 import subprocess
 
-def solidity_to_smtlib(contract_file, output_file):
+def SolToSmt(contract_file, output_file):
     try:
         # Execute the command to convert the Solidity contract to SMT-LIB format
         command = f"solc --model-checker-engine chc --model-checker-targets assert --model-checker-print-query --model-checker-solvers smtlib2 --model-checker-timeout 1000 --model-checker-show-unproved {contract_file}"
