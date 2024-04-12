@@ -1,8 +1,8 @@
 Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
---> /home/marco/Desktop/Bank.sol
+--> Bank.sol
 
 Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.25;"
---> /home/marco/Desktop/Bank.sol
+--> Bank.sol
 
 Info: CHC: Requested query:
 (set-option :timeout 1000)
@@ -195,7 +195,7 @@ Info: CHC: Requested query:
 
 
 Warning: CHC: Assertion violation might happen here.
- --> /home/marco/Desktop/Bank.sol:7:9:
+ --> Bank.sol:7:9:
   |
 7 |         assert(new_user_balance == user_balance + msg.value);
   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
