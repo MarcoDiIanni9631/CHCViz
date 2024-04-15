@@ -8,7 +8,7 @@ def SmtToPl(contract_file, output_file):
         # Execute the command to convert the Solidity contract to SMT-LIB format
         os.chdir("/home/marco/eldarica-master")
       
-        command = f"./eld -p {contract_file}"
+        command = f"./eld -p ../GITHUB/SmartContractToGraph/{contract_file}"
         
         # Execute the command and capture the output
         output = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT, text=True)
@@ -24,13 +24,13 @@ def SmtToPl(contract_file, output_file):
 
 def main():
     # Set contract_file to "bank_smt.smt2"
-    contract_file = "bank_smt.smt2"
+    contract_file = "Bank_parsed.smt2"
     
     # Get the filename without extension
     filename_without_extension = os.path.splitext(contract_file)[0]
     
     # Set output_file to have .pl extension
-    output_file = f"{filename_without_extension}.pl"
+    output_file = f"../GITHUB/SmartContractToGraph/{filename_without_extension}.pl"
     
     # Call the function to convert SMT to PL
     SmtToPl(contract_file, output_file)
