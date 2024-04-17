@@ -1,11 +1,3 @@
-Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
---> Bank.sol
-
-Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.25;"
---> Bank.sol
-
-Info: CHC: Requested query:
-(set-option :timeout 1000)
 (set-logic HORN)
 (declare-datatypes ((|bytes_tuple| 0)) (((|bytes_tuple| (|bytes_tuple_accessor_array| (Array Int Int)) (|bytes_tuple_accessor_length| Int)))))
 (declare-datatypes ((|tx_type| 0)) (((|tx_type| (|block.basefee| Int) (|block.chainid| Int) (|block.coinbase| Int) (|block.gaslimit| Int) (|block.number| Int) (|block.prevrandao| Int) (|block.timestamp| Int) (|blockhash| (Array Int Int)) (|msg.data| |bytes_tuple|) (|msg.sender| Int) (|msg.sig| Int) (|msg.value| Int) (|tx.gasprice| Int) (|tx.origin| Int)))))
@@ -192,13 +184,3 @@ Info: CHC: Requested query:
 (forall ( (abi_0 |abi_type|) (amount_41_0 Int) (amount_41_1 Int) (amount_41_2 Int) (balances_4_length_pair_0 |mapping(address => uint256)_tuple|) (balances_4_length_pair_1 |mapping(address => uint256)_tuple|) (balances_4_length_pair_2 |mapping(address => uint256)_tuple|) (balances_4_length_pair_3 |mapping(address => uint256)_tuple|) (crypto_0 |crypto_type|) (error_0 Int) (error_1 Int) (error_2 Int) (expr_11_1 Int) (expr_12_1 Int) (expr_14_length_pair_0 |mapping(address => uint256)_tuple|) (expr_14_length_pair_1 |mapping(address => uint256)_tuple|) (expr_14_length_pair_2 |mapping(address => uint256)_tuple|) (expr_16_1 Int) (expr_17_1 Int) (expr_17_2 Int) (expr_19_1 Int) (expr_20_1 Int) (expr_24_length_pair_0 |mapping(address => uint256)_tuple|) (expr_26_1 Int) (expr_27_1 Int) (expr_30_0 Int) (expr_31_0 Int) (expr_33_1 Int) (expr_34_1 Int) (expr_35_1 Bool) (expr_45_0 Int) (expr_46_0 Int) (expr_47_1 Bool) (expr_48_0 Int) (expr_49_length_pair_0 |mapping(address => uint256)_tuple|) (expr_51_1 Int) (expr_52_1 Int) (expr_53_1 Bool) (expr_54_0 Bool) (expr_57_length_pair_0 |mapping(address => uint256)_tuple|) (expr_57_length_pair_1 |mapping(address => uint256)_tuple|) (expr_57_length_pair_2 |mapping(address => uint256)_tuple|) (expr_59_1 Int) (expr_60_1 Int) (expr_60_2 Int) (expr_61_0 Int) (expr_62_1 Int) (expr_67_1 Int) (expr_69_0 Int) (expr_71_length_pair_0 |bytes_tuple|) (expr_72_0 |tuple(bool,bytes)|) (expr_75_0 Bool) (expr_9_length_pair_0 |mapping(address => uint256)_tuple|) (funds_2_0 Int) (funds_3_0 Int) (new_user_balance_23_0 Int) (new_user_balance_23_1 Int) (new_user_balance_23_2 Int) (state_0 |state_type|) (state_1 |state_type|) (state_2 |state_type|) (state_3 |state_type|) (success_65_0 Bool) (success_65_1 Bool) (success_65_2 Bool) (this_0 Int) (tx_0 |tx_type|) (user_balance_8_0 Int) (user_balance_8_1 Int) (user_balance_8_2 Int))
 (=> error_target_4_0 false)))
 (check-sat)
-
-
-Warning: CHC: Assertion violation might happen here.
- --> Bank.sol:7:9:
-  |
-7 |         assert(new_user_balance == user_balance + msg.value);
-  |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Warning: CHC analysis was not possible. No Horn solver was available. None of the installed solvers was enabled.
-
