@@ -1,4 +1,4 @@
-import re
+#import re
 
 def leggi_file(nome_file):
     with open(nome_file, 'r') as f:
@@ -9,21 +9,25 @@ def scrivi_file(nome_file, contenuto):
         f.write(contenuto)
 
 def elabora_contenuto(contenuto):
-    contenuto = contenuto.replace("mapping(", "mapping__")  
-    contenuto = contenuto.replace(")_", "__")  
+    contenuto = contenuto.replace("mapping(", "mapping__") 
+    contenuto = contenuto.replace("to_uint256)", "to_uint256__") 
+    contenuto = contenuto.replace(")_tuple", "___tuple")  
     contenuto = contenuto.replace(" => ", "_to_")
     contenuto = contenuto.replace("block.", "block_")
     contenuto = contenuto.replace("msg.", "msg_")
     contenuto = contenuto.replace("tx.", "tx_")
-
     contenuto = contenuto.replace("-18446744073709551616", "0")
     contenuto = contenuto.replace("115792089237316195423570985008687907853269984665640564039457584007913129639935", "1158")
     contenuto = contenuto.replace("1461501637330902918203684832716283019655932542975", "146")
     contenuto = contenuto.replace("3504541104", "35")
     contenuto = contenuto.replace("773487949", "77")
     contenuto = contenuto.replace("3732496093", "37")
+    contenuto = contenuto.replace("2153715177", "22")
+    contenuto = contenuto.replace("876046271", "88")
     contenuto = contenuto.replace("false", "ff")
-    contenuto = contenuto.replace("tuple(", "tuple__")
+    contenuto = contenuto.replace("tuple(bool,bytes)_accessor", "tuple__bool,bytes___accessor")
+ 
+    return contenuto
 
 
 

@@ -4,8 +4,7 @@ import subprocess
 required_packages = [
     "solc",
     "scala",
-    #"logtalk",
-    #"graphviz",
+    #"dot",
     "gprolog",
 ]
 
@@ -23,8 +22,15 @@ def check_requirements():
     for package in required_packages:
         if not check_package(package):
             missing_packages.append(package)
-    return missing_packages
 
+    if missing_packages:
+        print("The following dependencies are missing:")
+        for package in missing_packages:
+            print(f"- {package}")
+            return False
+    else:
+        print("All dependencies are satisfied.")
+        return True
 # Perform dependency check
 if __name__ == "__main__":
     missing_packages = check_requirements()
@@ -32,5 +38,3 @@ if __name__ == "__main__":
         print("Error: The following dependencies are missing:")
         for package in missing_packages:
             print(f"- {package}")
-    else:
-        print("All dependencies are satisfied.")

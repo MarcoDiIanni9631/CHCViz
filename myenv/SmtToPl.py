@@ -5,15 +5,21 @@ import subprocess
 
 def SmtToPl(contract_file, output_file):
     try:
-        # Execute the command to convert the Solidity contract to SMT-LIB format
+        #Move to eldarica-master folder 
         os.chdir("/home/marco/eldarica-master")
-      
+
+        # Execute the command to convert the Solidity contract to SMT-LIB format
+
         command = f"./eld -p ../GITHUB/SmartContractToGraph/{contract_file}"
         
         # Execute the command and capture the output
         output = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT, text=True)
         
-        # Write the output to a file
+        #Move to the original folder
+
+        os.chdir("../GITHUB/SmartContractToGraph/")
+
+        #write the output to the given output_file name
         with open(output_file, 'w') as f:
             f.write(output)
             print(f"Output saved successfully to: {output_file}")
