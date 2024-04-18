@@ -37,7 +37,7 @@ def PlToDot(contract_file):
 
     except subprocess.CalledProcessError as e:
         # Gestisci eventuali errori durante l'esecuzione del processo Gprolog
-        print("Error during the execution of Gprolog:", e)
+        print("Error during the execution of Gprolog/lgt :", e)
 
 def main():
    contract_file = "Bank_parsed.pl"

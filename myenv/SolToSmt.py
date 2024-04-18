@@ -16,3 +16,17 @@ def SolToSmt(contract_file, output_file):
     except subprocess.CalledProcessError as e:
         # Handle any errors that occur during the command execution
         print("Error executing command:", e)
+
+
+
+def main():
+    # Set contract_file to "bank_smt.smt2"
+    input_file = "Bank.sol"
+    output_folder = "/home/marco/GITHUB/SmartContractToGraph/"
+  # Call the function to convert SMT to PL
+    SolToSmt(input_file, output_folder)
+
+# Check if the script is being run as the main program
+if __name__ == "__main__":
+    # Call the main function
+    main()
