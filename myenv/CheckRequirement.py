@@ -3,10 +3,10 @@ import subprocess
 # List of dependencies
 required_packages = [
     "solc",
-    #"scala",
-    #"dot",
+    "java",
+    "dot",
     "swipl",
-]   
+]
 
 # Function to check if a package is installed
 def check_package(package):
