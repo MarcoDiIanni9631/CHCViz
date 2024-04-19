@@ -10,7 +10,7 @@ def SmtToPl(contract_file, output_file):
 
         # Execute the command to convert the Solidity contract to SMT-LIB format
 
-        command = f"eld -p {contract_file}"
+        command = f"./eld -p {contract_file}"
         
         # Execute the command and capture the output
         output = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT, text=True)
