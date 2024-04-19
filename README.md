@@ -1,4 +1,5 @@
 # SmartContractToGraph
+
 This repository contains the code to transform a Smart Contract into a Predicate dependency graph.
 
 ## Features
@@ -16,14 +17,18 @@ The toolchain performs the following operations:
 Before running the toolchain, make sure you have the following software installed on your system:
 
 - SOLC
-- Scala
-- Eldarica (pre-requisite Scala)
+- Eldarica
 - Logtalk
 - Graphviz
+- SwiProlog
 
 ## Usage
 
-1. Clone the repository:
+To use the toolchain, follow these steps:
 
-```bash
-git clone https://github.com/MarcoDiIanni9631/SmartContractToGraph/
+1. Install the required dependencies listed above.
+2. Add eld as a symbolic link.
+3. Clone this repository to your local machine.
+4. Navigate to the directory containing the repository.
+5. Execute the command `python ToolChain.py <solidity_file>`, replacing `<solidity_file>` with the path to the Solidity file you want to convert.
+6. After the toolchain completes execution, you will find the generated SVG file containing the predicate dependency graph in the output directory.
