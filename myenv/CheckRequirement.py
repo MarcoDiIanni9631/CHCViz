@@ -3,10 +3,10 @@ import subprocess
 # List of dependencies
 required_packages = [
     "solc",
-    "scala",
+    #"scala",
     #"dot",
-    "gprolog",
-]
+    "swipl",
+]   
 
 # Function to check if a package is installed
 def check_package(package):
@@ -31,10 +31,7 @@ def check_requirements():
     else:
         print("All dependencies are satisfied.")
         return True
+    
 # Perform dependency check
 if __name__ == "__main__":
-    missing_packages = check_requirements()
-    if missing_packages:
-        print("Error: The following dependencies are missing:")
-        for package in missing_packages:
-            print(f"- {package}")
+    check_requirements()
