@@ -6,18 +6,18 @@ import subprocess
 def SmtToPl(contract_file, output_file):
     try:
         #Move to eldarica-master folder 
-        os.chdir("/home/marco/eldarica-master")
+        #os.chdir("/home/marco/eldarica-master")
 
         # Execute the command to convert the Solidity contract to SMT-LIB format
 
-        command = f"./eld -p ../GITHUB/SmartContractToGraph/{contract_file}"
+        command = f"eld -p {contract_file}"
         
         # Execute the command and capture the output
         output = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT, text=True)
         
         #Move to the original folder
 
-        os.chdir("../GITHUB/SmartContractToGraph/")
+        #os.chdir("../GITHUB/SmartContractToGraph/")
 
         #write the output to the given output_file name
         with open(output_file, 'w') as f:
@@ -36,7 +36,7 @@ def main():
     filename_without_extension = os.path.splitext(contract_file)[0]
     
     # Set output_file to have .pl extension
-    output_file = f"../GITHUB/SmartContractToGraph/{filename_without_extension}.pl"
+    output_file = f"{filename_without_extension}.pl"
     
     # Call the function to convert SMT to PL
     SmtToPl(contract_file, output_file)

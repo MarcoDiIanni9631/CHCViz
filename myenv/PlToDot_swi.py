@@ -5,7 +5,7 @@ import os
 def PlToDot_swi(contract_file):
     try:
 
-        os.chdir("/home/marco/")
+        #os.chdir("/home/marco/")
         # Open SwiProlog/logtalk
         gprolog_process = subprocess.Popen(["swilgt"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         
@@ -16,7 +16,7 @@ def PlToDot_swi(contract_file):
         contract_without_extension = os.path.splitext(contract_file)[0]  # Extract filename without extension
 
         # Send commands directly to Gprolog interface 
-        gprolog_process.stdin.write(f"chdir('GITHUB/SmartContractToGraph').\n")
+        #gprolog_process.stdin.write(f"chdir('GITHUB/SmartContractToGraph').\n")
         gprolog_process.stdin.write(f"consult('{contract_file}').\n")
         gprolog_process.stdin.write("{diagrams(loader), hook_objects(loader)}.\n")
         gprolog_process.stdin.write(f"logtalk_load('{contract_without_extension}', [hook(object_wrapper_hook)]), xref_diagram::entity('{contract_without_extension}').\n")
@@ -34,7 +34,7 @@ def PlToDot_swi(contract_file):
         gprolog_process.wait()
 
         print(f"Dot file generated successfully")
-        os.chdir("GITHUB/SmartContractToGraph/")
+        #os.chdir("GITHUB/SmartContractToGraph/")
     
 
     except subprocess.CalledProcessError as e:
