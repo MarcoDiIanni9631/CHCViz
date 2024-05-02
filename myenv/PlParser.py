@@ -32,7 +32,9 @@ def pl_parser(input_file, output_file):
         with open(output_file, 'w') as file:
             file.write(content)
 
-        print(f"Transformation completed. Output written to '{output_file}'.")
+        print(f"Prolog parsed correctly. Output written to '{output_file}'.")
+
+        
     except Exception as e:
         print(f"An error occurred: {e}")
 

@@ -10,7 +10,7 @@ def PlToDot(contract_file):
         gprolog_process = subprocess.Popen(["gplgt"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         
         # Waitin for Gprolog to start
-        time.sleep(2)
+        time.sleep(1)
         
         #initialize contract name without extension
         contract_without_extension = os.path.splitext(contract_file)[0]  # Extract filename without extension
