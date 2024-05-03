@@ -1,3 +1,4 @@
+import shutil
 import sys
 import os
 import glob
@@ -51,7 +52,10 @@ def toolchain_for_file(solidity_file_with_path):
     #print("back to toolchain ready to dot_toSvg")
     # Convert from Dot to Svg
     myenv.DotToSvg.dot_to_svg(dotFile)
-    
+
+    # Move the generated files to a folder with the same name as filename_without_extension
+    move_files_to_folder(filename_without_extension)
+
     print()  # New line for clarity
     print(f"Conversion completed for {solidity_file_with_path}.")
     print()  # New line for clarity
@@ -86,6 +90,38 @@ def toolchain_for_folder(folder_path, recursive=False):
                     print(f"Error processing {solidity_file_with_path}: {str(e)}")
         else:
             print("No .sol files found in the specified folder.")
+
+
+
+
+
+def move_files_to_folder(filename_without_extension):
+    # Create the directory if it does not exist
+    folder_name = f"{filename_without_extension}_files"
+    if not os.path.exists(folder_name):
+        os.makedirs(folder_name)
+
+    # Define the list of files to move
+    files_to_move = [
+        f"{filename_without_extension}.txt",
+        f"{filename_without_extension}.smt2",
+        f"{filename_without_extension}.pl",
+        f"{filename_without_extension}_parsed.pl",
+        f"{filename_without_extension}_parsed_object_xref_diagram.dot",
+        f"{filename_without_extension}_parsed_object_xref_diagram.dot.svg"
+    ]
+
+    # Move each file to the folder
+    for file_to_move in files_to_move:
+        if os.path.exists(file_to_move):
+            # Replace existing files if necessary
+            destination_file = os.path.join(folder_name, os.path.basename(file_to_move))
+            os.replace(file_to_move, destination_file)
+            print(f"Moved {file_to_move} to {folder_name}")
+        else:
+            print(f"File {file_to_move} does not exist, skipping move operation")
+
+
 
 # Check if the script is being run as the main program
 if __name__ == "__main__":

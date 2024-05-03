@@ -8,7 +8,7 @@ def dot_to_svg(contract_file):
         print("prima di lanciare il comando per la trasformazione dot")
       # Execute the command to convert the Solidity contract to SMT-LIB format
 
-        command = f"    dot -Tsvg dot_dias/{contract_file} -o dot_dias/{contract_file}.svg "
+        command = f"    dot -Tsvg {contract_file} -o {contract_file}.svg "
         
         # Execute the command and capture the output
         output = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT, text=True)
@@ -20,7 +20,7 @@ def dot_to_svg(contract_file):
         # Handle any errors that occur during the command execution
         print("Error executing command:", e)
 
-    print(f"Svg saved successfully into -dot_dias- folder")
+    print(f"Svg saved successfully")
 
 def main():
     # Set contract_file to "bank_smt.smt2"

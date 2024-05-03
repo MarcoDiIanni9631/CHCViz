@@ -4,7 +4,7 @@ import subprocess
 required_packages = [
     "solc",
     "java",
-    "dot",
+    #"dot",
     "swipl",
 ]
 

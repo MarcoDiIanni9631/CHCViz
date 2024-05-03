@@ -1,3 +1,4 @@
+import shutil
 import subprocess
 import time
 import os
@@ -32,10 +33,20 @@ def PlToDot_swi(contract_file):
 
         # Wait for Swiprolog to terminate the process
         gprolog_process.wait()
+        
 
         print(f"Dot file generated successfully")
-        #os.chdir("GITHUB/SmartContractToGraph/")
-    
+        
+        # Ottieni il percorso della directory in cui hai lanciato lo script
+        destination_directory = os.path.join(os.getcwd(), "dot_dias")
+        
+        # Ottieni il percorso completo del file .dot
+        dot_file_path = os.path.join(destination_directory, f"{contract_without_extension}_object_xref_diagram.dot")
+        
+        # Sposta il file .dot alla directory di destinazione
+        shutil.move(dot_file_path, os.getcwd())
+        
+        print("File moved successfully!")
 
     except subprocess.CalledProcessError as e:
         # Gestisci eventuali errori durante l'esecuzione del processo Gprolog
