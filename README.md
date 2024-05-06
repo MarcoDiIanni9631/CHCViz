@@ -30,5 +30,5 @@ To use the toolchain, follow these steps:
 2. Add eld as a symbolic link.
 3. Clone this repository to your local machine.
 4. Navigate to the directory containing the repository.
-5. Execute the command `python ToolChain.py <solidity_file>`, replacing `<solidity_file>` with the path to the Solidity file you want to convert.
+5. Execute the command `python chcviz.py <solidity_file>`, replacing `<solidity_file>` with the path to the Solidity file you want to convert.
 6. After the toolchain completes execution, you will find the generated SVG file containing the predicate dependency graph in the output directory.
