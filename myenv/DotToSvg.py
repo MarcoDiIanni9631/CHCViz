@@ -5,7 +5,7 @@ import subprocess
 
 def dot_to_svg(contract_file):
     try:
-        print("prima di lanciare il comando per la trasformazione dot")
+      #  print("prima di lanciare il comando per la trasformazione dot")
       # Execute the command to convert the Solidity contract to SMT-LIB format
 
         command = f"    dot -Tsvg {contract_file} -o {contract_file}.svg "
@@ -13,7 +13,7 @@ def dot_to_svg(contract_file):
         # Execute the command and capture the output
         output = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT, text=True)
 
-        print("dopo la trasformazione")
+      #  print("dopo la trasformazione")
 
             
     except subprocess.CalledProcessError as e:

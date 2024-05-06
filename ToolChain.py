@@ -47,7 +47,9 @@ def toolchain_for_file(solidity_file_with_path):
    # print("back to toolchain readdy to plToDot")
 
     # Convert from Pl to Dot
-    myenv.PlToDot_swi.PlToDot_swi(prologParsed)
+    if not myenv.PlToDot_swi.PlToDot_swi(prologParsed):
+        return False
+
 
     #print("back to toolchain ready to dot_toSvg")
     # Convert from Dot to Svg
@@ -117,7 +119,7 @@ def move_files_to_folder(filename_without_extension):
             # Replace existing files if necessary
             destination_file = os.path.join(folder_name, os.path.basename(file_to_move))
             os.replace(file_to_move, destination_file)
-            print(f"Moved {file_to_move} to {folder_name}")
+        #    print(f"Moved {file_to_move} to {folder_name}")
         else:
             print(f"File {file_to_move} does not exist, skipping move operation")
 
