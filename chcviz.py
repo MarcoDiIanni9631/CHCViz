@@ -56,7 +56,7 @@ def toolchain_for_file(solidity_file_with_path):
     myenv.DotToSvg.dot_to_svg(dotFile)
 
     # Move the generated files to a folder with the same name as filename_without_extension
-    move_files_to_folder(filename_without_extension)
+    move_files_to_folder(folder_path,filename_without_extension)
 
     print()  # New line for clarity
     print(f"Conversion completed for {solidity_file_with_path}.")
@@ -96,7 +96,7 @@ def toolchain_for_folder(folder_path, recursive=False):
 
 
 
-
+"""
 def move_files_to_folder(filename_without_extension):
     # Create the directory if it does not exist
     folder_name = f"{filename_without_extension}_files"
@@ -122,6 +122,39 @@ def move_files_to_folder(filename_without_extension):
         #    print(f"Moved {file_to_move} to {folder_name}")
         else:
             print(f"File {file_to_move} does not exist, skipping move operation")
+"""
+
+
+
+def move_files_to_folder(folder_path, filename_without_extension):
+    # Create the directory if it does not exist
+    folder_name = f"{filename_without_extension}_files"
+    full_folder_path = os.path.join(folder_path, folder_name)
+   
+    if not os.path.exists(full_folder_path):
+        os.makedirs(full_folder_path)
+
+    # Define the list of files to move
+    files_to_move = [
+        f"{filename_without_extension}.txt",
+        f"{filename_without_extension}.smt2",
+        f"{filename_without_extension}.pl",
+        f"{filename_without_extension}_parsed.pl",
+        f"{filename_without_extension}_parsed_object_xref_diagram.dot",
+        f"{filename_without_extension}_parsed_object_xref_diagram.dot.svg"
+    ]
+
+    # Move each file to the folder
+    for file_to_move in files_to_move:
+        full_file_path = os.path.join(os.getcwd(), file_to_move)
+        if os.path.exists(full_file_path):
+            # Replace existing files if necessary
+            destination_file = os.path.join(full_folder_path, os.path.basename(file_to_move))
+            os.replace(full_file_path, destination_file)
+        #    print(f"Moved {file_to_move} to {folder_name}")
+        else:
+            print(f"File {file_to_move} does not exist, skipping move operation")
+
 
 
 
@@ -132,7 +165,7 @@ if __name__ == "__main__":
         solidity_file_with_path = sys.argv[1]
         toolchain_for_file(solidity_file_with_path)
     # If a folder path is provided as command line argument without recursion
-    elif len(sys.argv) == 3 and sys.argv[1] == "-f" and os.path.isdir(sys.argv[2]):
+    elif len(sys.argv) == 3 and sys.argv[1] == "-d" and os.path.isdir(sys.argv[2]):
         folder_path = sys.argv[2]
         toolchain_for_folder(folder_path, recursive=False)
     # If a folder path is provided as command line argument with recursion
@@ -142,10 +175,10 @@ if __name__ == "__main__":
     else:
         print("Usage:")
         print("For a single .sol file:")
-        print("python3 ToolChain.py <solidity_file_path>")
+        print("python3 chcviz.py <solidity_file_path>")
         print()  # New line for clarity
         print("For processing a folder without recursion:")
-        print("python3 ToolChain.py -f <folder_path>")
+        print("python3 chcviz.py -d <directory_path>")
         print()  # New line for clarity
         print("For processing a folder with recursion:")
-        print("python3 ToolChain.py -r <folder_path>")
+        print("python3 chcviz.py -r <folder_path>")
