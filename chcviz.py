@@ -55,6 +55,8 @@ def toolchain_for_file(solidity_file_with_path):
     # Convert from Dot to Svg
     myenv.DotToSvg.dot_to_svg(dotFile)
 
+    rename_files(filename_without_extension)
+
     # Move the generated files to a folder with the same name as filename_without_extension
     move_files_to_folder(folder_path,filename_without_extension)
 
@@ -124,6 +126,22 @@ def move_files_to_folder(filename_without_extension):
             print(f"File {file_to_move} does not exist, skipping move operation")
 """
 
+def rename_files(filename_without_extension):
+    # Define the list of files to rename
+    files_to_rename = [
+        f"{filename_without_extension}_parsed_object_xref_diagram.dot",
+        f"{filename_without_extension}_parsed_object_xref_diagram.dot.svg"
+    ]
+
+    # Rename each file
+    for file_to_rename in files_to_rename:
+        _, extension = os.path.splitext(file_to_rename)
+        new_file_name = f"{filename_without_extension}{extension}"
+        if os.path.exists(file_to_rename):
+            os.rename(file_to_rename, new_file_name)
+            print(f"Renamed {file_to_rename} to {new_file_name}")
+        else:
+            print(f"File {file_to_rename} does not exist, skipping rename operation")
 
 
 def move_files_to_folder(folder_path, filename_without_extension):
@@ -140,8 +158,40 @@ def move_files_to_folder(folder_path, filename_without_extension):
         f"{filename_without_extension}.smt2",
         f"{filename_without_extension}.pl",
         f"{filename_without_extension}_parsed.pl",
-        f"{filename_without_extension}_parsed_object_xref_diagram.dot",
-        f"{filename_without_extension}_parsed_object_xref_diagram.dot.svg"
+        f"{filename_without_extension}.dot",
+        f"{filename_without_extension}.svg"
+    ]
+
+    # Move each file to the folder
+    for file_to_move in files_to_move:
+        full_file_path = os.path.join(os.getcwd(), file_to_move)
+        if os.path.exists(full_file_path):
+            # Replace existing files if necessary
+            destination_file = os.path.join(full_folder_path, os.path.basename(file_to_move))
+            os.replace(full_file_path, destination_file)
+        #    print(f"Moved {file_to_move} to {folder_name}")
+        else:
+            print(f"File {file_to_move} does not exist, skipping move operation")
+
+
+
+
+def move_files_to_folder_sol(folder_path, filename_without_extension):
+    # Create the directory if it does not exist
+    folder_name = f"{filename_without_extension}_files"
+    full_folder_path = os.path.join(folder_path, folder_name)
+   
+    if not os.path.exists(full_folder_path):
+        os.makedirs(full_folder_path)
+
+    # Define the list of files to move
+    files_to_move = [
+        f"{filename_without_extension}.txt",
+        f"{filename_without_extension}.smt2",
+        f"{filename_without_extension}.pl",
+        f"{filename_without_extension}_parsed.pl",
+        f"{filename_without_extension}.dot",
+        f"{filename_without_extension}.svg"
     ]
 
     # Move each file to the folder
@@ -163,6 +213,7 @@ if __name__ == "__main__":
     # If a single .sol file is provided as command line argument, apply toolchain to that file
     if len(sys.argv) == 2 and os.path.isfile(sys.argv[1]) and sys.argv[1].endswith(".sol"):
         solidity_file_with_path = sys.argv[1]
+        folder_path = os.path.dirname(solidity_file_with_path)
         toolchain_for_file(solidity_file_with_path)
     # If a folder path is provided as command line argument without recursion
     elif len(sys.argv) == 3 and sys.argv[1] == "-d" and os.path.isdir(sys.argv[2]):
