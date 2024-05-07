@@ -1,3 +1,4 @@
+import re
 import sys
 
 def pl_parser(input_file, output_file):
@@ -7,25 +8,27 @@ def pl_parser(input_file, output_file):
             content = file.read()
 
         # Apply transformations using replace
+        content = re.sub(r'struct (\w+)\.(.*?)\)', r'struct_\1_\2)', content) #espressione regolare per struct, prima della sostituzione delle parentesi
         content = content.replace("mapping(", "mapping__") 
-        content = content.replace("to_uint256)", "to_uint256__") 
+        content = content.replace("to_uint256)", "to_uint256__")  
         content = content.replace(")_tuple", "___tuple")  
         content = content.replace(" => ", "_to_")
         content = content.replace("block.", "block_")
         content = content.replace("msg.", "msg_")
         content = content.replace("tx.", "tx_")
-    #    content = content.replace("-18446744073709551616", "0")
-    #    content = content.replace("115792089237316195423570985008687907853269984665640564039457584007913129639935", "1158")
-    #    content = content.replace("1461501637330902918203684832716283019655932542975", "146")
-    #    content = content.replace("3504541104", "35")
-    #    content = content.replace("773487949", "77")
+    #   content = content.replace("-18446744073709551616", "0")
+    #   content = content.replace("115792089237316195423570985008687907853269984665640564039457584007913129639935", "1158")
+    #   content = content.replace("1461501637330902918203684832716283019655932542975", "146")
+    #   content = content.replace("3504541104", "35")
+    #   content = content.replace("773487949", "77")
     #   content = content.replace("3732496093", "37")
-    #    content = content.replace("2153715177", "22")
-    #    content = content.replace("876046271", "88")
+    #   content = content.replace("2153715177", "22")
+    #   content = content.replace("876046271", "88")
+    #   content = content.replace(" Wallet.Recovery", "_Wallet_Recovery")  #per struct Wallet nel file SocialRecoveryWallet 
         content = content.replace("false", "ff")
         content = content.replace("tuple(bool,bytes)_accessor", "tuple__bool,bytes___accessor")
-
-
+        content = content.replace("t_function_abiencodepacked_pure()returns(t_bytes_memory_ptr)_" ,"t_function_abiencodepacked_pure___returns_t_bytes_memory_ptr__")
+	#   content = content.replace("","")
         
 
         # Write transformed content to output file
