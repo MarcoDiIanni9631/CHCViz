@@ -1,3 +1,5 @@
+import signal
+import subprocess
 import shutil
 import sys
 import os
@@ -33,32 +35,33 @@ def toolchain_for_file(solidity_file_with_path):
     dotFile = f"{prolog_without_extension_prolog}_object_xref_diagram.dot"
     
     # Convert from sol to Smt
-    myenv.SolToSmt.SolToSmt(solidity_file_with_path, output_file)
+    if not timeout_wrapper(myenv.SolToSmt.SolToSmt, (solidity_file_with_path, output_file)):
+        return False
     
     # Parse smt for eldarica use
-    myenv.SmtParser.smt_parser(output_file, smtParsed)
-   
+    if not timeout_wrapper(myenv.SmtParser.smt_parser, (output_file, smtParsed)):
+        return False
+    
     # Convert from Smt to Pl
-    myenv.SmtToPl.SmtToPl(smtParsed, outputProlog)
-   
+    if not timeout_wrapper(myenv.SmtToPl.SmtToPl, (smtParsed, outputProlog)):
+        return False
+    
     # Parse pl for logtalk use
-    myenv.PlParser.pl_parser(outputProlog, prologParsed)
-
-   # print("back to toolchain readdy to plToDot")
+    if not timeout_wrapper(myenv.PlParser.pl_parser, (outputProlog, prologParsed)):
+        return False
 
     # Convert from Pl to Dot
     if not myenv.PlToDot_swi.PlToDot_swi(prologParsed):
         return False
 
-
-    #print("back to toolchain ready to dot_toSvg")
     # Convert from Dot to Svg
-    myenv.DotToSvg.dot_to_svg(dotFile)
+    if not timeout_wrapper(myenv.DotToSvg.dot_to_svg, (dotFile,)):
+        return False
 
     rename_files(filename_without_extension)
 
     # Move the generated files to a folder with the same name as filename_without_extension
-    move_files_to_folder(folder_path,filename_without_extension)
+    move_files_to_folder(folder_path, filename_without_extension)
 
     print()  # New line for clarity
     print(f"Conversion completed for {solidity_file_with_path}.")
@@ -96,35 +99,23 @@ def toolchain_for_folder(folder_path, recursive=False):
             print("No .sol files found in the specified folder.")
 
 
+def timeout_wrapper(func, args, timeout=10):
+    def handler(signum, frame):
+        raise TimeoutError(f"{func.__name__} timed out")
 
+    signal.signal(signal.SIGALRM, handler)
+    signal.alarm(timeout)
 
-"""
-def move_files_to_folder(filename_without_extension):
-    # Create the directory if it does not exist
-    folder_name = f"{filename_without_extension}_files"
-    if not os.path.exists(folder_name):
-        os.makedirs(folder_name)
+    try:
+        func(*args)
+    except TimeoutError as e:
+        print(f"Timeout error: {e}")
+        return False
+    finally:
+        signal.alarm(0)
 
-    # Define the list of files to move
-    files_to_move = [
-        f"{filename_without_extension}.txt",
-        f"{filename_without_extension}.smt2",
-        f"{filename_without_extension}.pl",
-        f"{filename_without_extension}_parsed.pl",
-        f"{filename_without_extension}_parsed_object_xref_diagram.dot",
-        f"{filename_without_extension}_parsed_object_xref_diagram.dot.svg"
-    ]
+    return True
 
-    # Move each file to the folder
-    for file_to_move in files_to_move:
-        if os.path.exists(file_to_move):
-            # Replace existing files if necessary
-            destination_file = os.path.join(folder_name, os.path.basename(file_to_move))
-            os.replace(file_to_move, destination_file)
-        #    print(f"Moved {file_to_move} to {folder_name}")
-        else:
-            print(f"File {file_to_move} does not exist, skipping move operation")
-"""
 
 def rename_files(filename_without_extension):
     # Define the list of files to rename
@@ -139,7 +130,7 @@ def rename_files(filename_without_extension):
         new_file_name = f"{filename_without_extension}{extension}"
         if os.path.exists(file_to_rename):
             os.rename(file_to_rename, new_file_name)
-            print(f"Renamed {file_to_rename} to {new_file_name}")
+    #        print(f"Renamed {file_to_rename} to {new_file_name}")
         else:
             print(f"File {file_to_rename} does not exist, skipping rename operation")
 
@@ -172,41 +163,6 @@ def move_files_to_folder(folder_path, filename_without_extension):
         #    print(f"Moved {file_to_move} to {folder_name}")
         else:
             print(f"File {file_to_move} does not exist, skipping move operation")
-
-
-
-
-def move_files_to_folder_sol(folder_path, filename_without_extension):
-    # Create the directory if it does not exist
-    folder_name = f"{filename_without_extension}_files"
-    full_folder_path = os.path.join(folder_path, folder_name)
-   
-    if not os.path.exists(full_folder_path):
-        os.makedirs(full_folder_path)
-
-    # Define the list of files to move
-    files_to_move = [
-        f"{filename_without_extension}.txt",
-        f"{filename_without_extension}.smt2",
-        f"{filename_without_extension}.pl",
-        f"{filename_without_extension}_parsed.pl",
-        f"{filename_without_extension}.dot",
-        f"{filename_without_extension}.svg"
-    ]
-
-    # Move each file to the folder
-    for file_to_move in files_to_move:
-        full_file_path = os.path.join(os.getcwd(), file_to_move)
-        if os.path.exists(full_file_path):
-            # Replace existing files if necessary
-            destination_file = os.path.join(full_folder_path, os.path.basename(file_to_move))
-            os.replace(full_file_path, destination_file)
-        #    print(f"Moved {file_to_move} to {folder_name}")
-        else:
-            print(f"File {file_to_move} does not exist, skipping move operation")
-
-
-
 
 # Check if the script is being run as the main program
 if __name__ == "__main__":
