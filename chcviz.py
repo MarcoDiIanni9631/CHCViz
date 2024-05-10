@@ -30,7 +30,7 @@ def toolchain_for_file(solidity_file_with_path):
     output_file = f"{filename_without_extension}.txt" 
     smtParsed = f"{filename_without_extension}.smt2"
     outputProlog = f"{filename_without_extension}.pl"
-    prologParsed = f"{filename_without_extension}_parsed.pl"
+    prologParsed = f"{filename_without_extension}_parsed"
     prolog_without_extension_prolog = os.path.splitext(prologParsed)[0]  # Extract filename without extension
     dotFile = f"{prolog_without_extension_prolog}_object_xref_diagram.dot"
     
@@ -148,7 +148,7 @@ def move_files_to_folder(folder_path, filename_without_extension):
         f"{filename_without_extension}.txt",
         f"{filename_without_extension}.smt2",
         f"{filename_without_extension}.pl",
-        f"{filename_without_extension}_parsed.pl",
+        f"{filename_without_extension}_parsed",
         f"{filename_without_extension}.dot",
         f"{filename_without_extension}.svg"
     ]
