@@ -11,10 +11,10 @@
 <title>Htlc_reveal&#45;auth&#45;owner_v3_parsed_object</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-1077 2637,-1077 2637,4 -4,4"/>
 <text text-anchor="start" x="8" y="-18" font-family="Monospace" font-size="10.00" fill="dimgray">Cross&#45;referencing diagram for object Htlc_reveal&#45;auth&#45;owner_v3_parsed</text>
-<text text-anchor="start" x="8" y="-7" font-family="Monospace" font-size="10.00" fill="dimgray">Generated on 2024&#45;05&#45;08, 12:46</text>
+<text text-anchor="start" x="8" y="-7" font-family="Monospace" font-size="10.00" fill="dimgray">Generated on 2024&#45;05&#45;10, 14:43</text>
 <g id="clust1" class="cluster">
 <title>cluster_Htlc_reveal&#45;auth&#45;owner_v3_parsed_object</title>
-<g id="a_clust1"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_clust1"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <path fill="snow" stroke="dimgray" d="M20,-38C20,-38 2613,-38 2613,-38 2619,-38 2625,-44 2625,-50 2625,-50 2625,-1053 2625,-1053 2625,-1059 2619,-1065 2613,-1065 2613,-1065 20,-1065 20,-1065 14,-1065 8,-1059 8,-1053 8,-1053 8,-50 8,-50 8,-44 14,-38 20,-38"/>
 <text text-anchor="start" x="20.5" y="-1048.5" font-family="Monospace" font-size="10.00" fill="dimgray">Htlc_reveal&#45;auth&#45;owner_v3_parsed</text>
 </a>
@@ -23,7 +23,7 @@
 <!-- nondet_interface_1_htlc_233_0/32 -->
 <g id="node1" class="node">
 <title>nondet_interface_1_htlc_233_0/32</title>
-<g id="a_node1"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node1"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1716.5,-792 1471.5,-792 1471.5,-756 1716.5,-756 1716.5,-792"/>
 <text text-anchor="start" x="1480" y="-776.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1486" y="-776.2" font-family="Monospace" font-size="11.00">nondet_interface_1_htlc_233_0/32</text>
@@ -37,7 +37,7 @@
 <!-- summary_5_function_commit__108_233_0/35 -->
 <g id="node7" class="node">
 <title>summary_5_function_commit__108_233_0/35</title>
-<g id="a_node7"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node7"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="2065,-674 1773,-674 1773,-638 2065,-638 2065,-674"/>
 <text text-anchor="start" x="1781" y="-658.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1787" y="-658.2" font-family="Monospace" font-size="11.00">summary_5_function_commit__108_233_0/35</text>
@@ -61,7 +61,7 @@
 <!-- summary_7_function_reveal__178_233_0/35 -->
 <g id="node16" class="node">
 <title>summary_7_function_reveal__178_233_0/35</title>
-<g id="a_node16"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node16"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1255,-674 963,-674 963,-638 1255,-638 1255,-674"/>
 <text text-anchor="start" x="971" y="-658.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="977" y="-658.2" font-family="Monospace" font-size="11.00">summary_7_function_reveal__178_233_0/35</text>
@@ -85,7 +85,7 @@
 <!-- summary_9_function_timeout__232_233_0/33 -->
 <g id="node23" class="node">
 <title>summary_9_function_timeout__232_233_0/33</title>
-<g id="a_node23"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node23"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1572.5,-674 1273.5,-674 1273.5,-638 1572.5,-638 1572.5,-674"/>
 <text text-anchor="start" x="1282" y="-658.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1288" y="-658.2" font-family="Monospace" font-size="11.00">summary_9_function_timeout__232_233_0/33</text>
@@ -109,7 +109,7 @@
 <!-- block_10_function_commit__108_233_0/35 -->
 <g id="node2" class="node">
 <title>block_10_function_commit__108_233_0/35</title>
-<g id="a_node2"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node2"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="2591.5,-202 2306.5,-202 2306.5,-166 2591.5,-166 2591.5,-202"/>
 <text text-anchor="start" x="2315" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2321" y="-186.2" font-family="Monospace" font-size="11.00">block_10_function_commit__108_233_0/35</text>
@@ -123,7 +123,7 @@
 <!-- block_11_commit_107_233_0/35 -->
 <g id="node3" class="node">
 <title>block_11_commit_107_233_0/35</title>
-<g id="a_node3"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node3"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="2558,-320 2340,-320 2340,-284 2558,-284 2558,-320"/>
 <text text-anchor="start" x="2348" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2354" y="-304.2" font-family="Monospace" font-size="11.00">block_11_commit_107_233_0/35</text>
@@ -147,7 +147,7 @@
 <!-- block_12_return_function_commit__108_233_0/35 -->
 <g id="node4" class="node">
 <title>block_12_return_function_commit__108_233_0/35</title>
-<g id="a_node4"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node4"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="2615,-438 2283,-438 2283,-402 2615,-402 2615,-438"/>
 <text text-anchor="start" x="2291" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2297" y="-422.2" font-family="Monospace" font-size="11.00">block_12_return_function_commit__108_233_0/35</text>
@@ -171,7 +171,7 @@
 <!-- summary_4_function_commit__108_233_0/35 -->
 <g id="node5" class="node">
 <title>summary_4_function_commit__108_233_0/35</title>
-<g id="a_node5"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node5"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="2552,-556 2260,-556 2260,-520 2552,-520 2552,-556"/>
 <text text-anchor="start" x="2268" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2274" y="-540.2" font-family="Monospace" font-size="11.00">summary_4_function_commit__108_233_0/35</text>
@@ -195,7 +195,7 @@
 <!-- block_13_function_commit__108_233_0/35 -->
 <g id="node6" class="node">
 <title>block_13_function_commit__108_233_0/35</title>
-<g id="a_node6"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node6"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="2241.5,-556 1956.5,-556 1956.5,-520 2241.5,-520 2241.5,-556"/>
 <text text-anchor="start" x="1965" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1971" y="-540.2" font-family="Monospace" font-size="11.00">block_13_function_commit__108_233_0/35</text>
@@ -229,7 +229,7 @@
 <!-- interface_0_htlc_233_0/17 -->
 <g id="node8" class="node">
 <title>interface_0_htlc_233_0/17</title>
-<g id="a_node8"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node8"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1371.5,-792 1174.5,-792 1174.5,-756 1371.5,-756 1371.5,-792"/>
 <text text-anchor="start" x="1183" y="-776.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1189" y="-776.2" font-family="Monospace" font-size="11.00">interface_0_htlc_233_0/17</text>
@@ -273,7 +273,7 @@
 <!-- summary_constructor_2_htlc_233_0/35 -->
 <g id="node32" class="node">
 <title>summary_constructor_2_htlc_233_0/35</title>
-<g id="a_node32"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node32"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="606.5,-674 341.5,-674 341.5,-638 606.5,-638 606.5,-674"/>
 <text text-anchor="start" x="350" y="-658.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="356" y="-658.2" font-family="Monospace" font-size="11.00">summary_constructor_2_htlc_233_0/35</text>
@@ -297,7 +297,7 @@
 <!-- block_14_function_reveal__178_233_0/37 -->
 <g id="node9" class="node">
 <title>block_14_function_reveal__178_233_0/37</title>
-<g id="a_node9"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node9"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1043.5,-202 758.5,-202 758.5,-166 1043.5,-166 1043.5,-202"/>
 <text text-anchor="start" x="767" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="773" y="-186.2" font-family="Monospace" font-size="11.00">block_14_function_reveal__178_233_0/37</text>
@@ -311,7 +311,7 @@
 <!-- block_15_reveal_177_233_0/37 -->
 <g id="node10" class="node">
 <title>block_15_reveal_177_233_0/37</title>
-<g id="a_node10"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node10"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1010,-320 792,-320 792,-284 1010,-284 1010,-320"/>
 <text text-anchor="start" x="800" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="806" y="-304.2" font-family="Monospace" font-size="11.00">block_15_reveal_177_233_0/37</text>
@@ -335,7 +335,7 @@
 <!-- nondet_call_17_0/32 -->
 <g id="node11" class="node">
 <title>nondet_call_17_0/32</title>
-<g id="a_node11"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node11"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1440.5,-320 1283.5,-320 1283.5,-284 1440.5,-284 1440.5,-320"/>
 <text text-anchor="start" x="1292" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1298" y="-304.2" font-family="Monospace" font-size="11.00">nondet_call_17_0/32</text>
@@ -359,7 +359,7 @@
 <!-- summary_6_function_reveal__178_233_0/35 -->
 <g id="node12" class="node">
 <title>summary_6_function_reveal__178_233_0/35</title>
-<g id="a_node12"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node12"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="944,-556 652,-556 652,-520 944,-520 944,-556"/>
 <text text-anchor="start" x="660" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="666" y="-540.2" font-family="Monospace" font-size="11.00">summary_6_function_reveal__178_233_0/35</text>
@@ -393,7 +393,7 @@
 <!-- block_18_function_reveal__178_233_0/37 -->
 <g id="node13" class="node">
 <title>block_18_function_reveal__178_233_0/37</title>
-<g id="a_node13"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node13"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1370.5,-438 1085.5,-438 1085.5,-402 1370.5,-402 1370.5,-438"/>
 <text text-anchor="start" x="1094" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1100" y="-422.2" font-family="Monospace" font-size="11.00">block_18_function_reveal__178_233_0/37</text>
@@ -417,7 +417,7 @@
 <!-- block_16_return_function_reveal__178_233_0/37 -->
 <g id="node14" class="node">
 <title>block_16_return_function_reveal__178_233_0/37</title>
-<g id="a_node14"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node14"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1067,-438 735,-438 735,-402 1067,-402 1067,-438"/>
 <text text-anchor="start" x="743" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="749" y="-422.2" font-family="Monospace" font-size="11.00">block_16_return_function_reveal__178_233_0/37</text>
@@ -481,7 +481,7 @@
 <!-- block_19_function_reveal__178_233_0/37 -->
 <g id="node15" class="node">
 <title>block_19_function_reveal__178_233_0/37</title>
-<g id="a_node15"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node15"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1247.5,-556 962.5,-556 962.5,-520 1247.5,-520 1247.5,-556"/>
 <text text-anchor="start" x="971" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="977" y="-540.2" font-family="Monospace" font-size="11.00">block_19_function_reveal__178_233_0/37</text>
@@ -515,7 +515,7 @@
 <!-- block_20_function_timeout__232_233_0/35 -->
 <g id="node17" class="node">
 <title>block_20_function_timeout__232_233_0/35</title>
-<g id="a_node17"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node17"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1936,-202 1644,-202 1644,-166 1936,-166 1936,-202"/>
 <text text-anchor="start" x="1652" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1658" y="-186.2" font-family="Monospace" font-size="11.00">block_20_function_timeout__232_233_0/35</text>
@@ -529,7 +529,7 @@
 <!-- block_21_timeout_231_233_0/35 -->
 <g id="node18" class="node">
 <title>block_21_timeout_231_233_0/35</title>
-<g id="a_node18"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node18"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1902,-320 1678,-320 1678,-284 1902,-284 1902,-320"/>
 <text text-anchor="start" x="1686" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1692" y="-304.2" font-family="Monospace" font-size="11.00">block_21_timeout_231_233_0/35</text>
@@ -553,7 +553,7 @@
 <!-- nondet_call_23_0/32 -->
 <g id="node19" class="node">
 <title>nondet_call_23_0/32</title>
-<g id="a_node19"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node19"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="2242.5,-320 2085.5,-320 2085.5,-284 2242.5,-284 2242.5,-320"/>
 <text text-anchor="start" x="2094" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2100" y="-304.2" font-family="Monospace" font-size="11.00">nondet_call_23_0/32</text>
@@ -577,7 +577,7 @@
 <!-- summary_8_function_timeout__232_233_0/33 -->
 <g id="node20" class="node">
 <title>summary_8_function_timeout__232_233_0/33</title>
-<g id="a_node20"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node20"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1938.5,-556 1639.5,-556 1639.5,-520 1938.5,-520 1938.5,-556"/>
 <text text-anchor="start" x="1648" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1654" y="-540.2" font-family="Monospace" font-size="11.00">summary_8_function_timeout__232_233_0/33</text>
@@ -611,7 +611,7 @@
 <!-- block_22_return_function_timeout__232_233_0/35 -->
 <g id="node21" class="node">
 <title>block_22_return_function_timeout__232_233_0/35</title>
-<g id="a_node21"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node21"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="2127.5,-438 1788.5,-438 1788.5,-402 2127.5,-402 2127.5,-438"/>
 <text text-anchor="start" x="1797" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1803" y="-422.2" font-family="Monospace" font-size="11.00">block_22_return_function_timeout__232_233_0/35</text>
@@ -655,7 +655,7 @@
 <!-- block_24_function_timeout__232_233_0/35 -->
 <g id="node22" class="node">
 <title>block_24_function_timeout__232_233_0/35</title>
-<g id="a_node22"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node22"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1558,-556 1266,-556 1266,-520 1558,-520 1558,-556"/>
 <text text-anchor="start" x="1274" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1280" y="-540.2" font-family="Monospace" font-size="11.00">block_24_function_timeout__232_233_0/35</text>
@@ -689,7 +689,7 @@
 <!-- block_25_constructor_58_233_0/35 -->
 <g id="node24" class="node">
 <title>block_25_constructor_58_233_0/35</title>
-<g id="a_node24"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node24"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="286.5,-84 41.5,-84 41.5,-48 286.5,-48 286.5,-84"/>
 <text text-anchor="start" x="50" y="-68.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="56" y="-68.2" font-family="Monospace" font-size="11.00">block_25_constructor_58_233_0/35</text>
@@ -703,7 +703,7 @@
 <!-- block_26__57_233_0/35 -->
 <g id="node25" class="node">
 <title>block_26__57_233_0/35</title>
-<g id="a_node25"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node25"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="249,-202 79,-202 79,-166 249,-166 249,-202"/>
 <text text-anchor="start" x="87" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="93" y="-186.2" font-family="Monospace" font-size="11.00">block_26__57_233_0/35</text>
@@ -727,7 +727,7 @@
 <!-- block_27_return_constructor_58_233_0/35 -->
 <g id="node26" class="node">
 <title>block_27_return_constructor_58_233_0/35</title>
-<g id="a_node26"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node26"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="310,-320 18,-320 18,-284 310,-284 310,-320"/>
 <text text-anchor="start" x="26" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="32" y="-304.2" font-family="Monospace" font-size="11.00">block_27_return_constructor_58_233_0/35</text>
@@ -751,7 +751,7 @@
 <!-- summary_3_constructor_58_233_0/35 -->
 <g id="node27" class="node">
 <title>summary_3_constructor_58_233_0/35</title>
-<g id="a_node27"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node27"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="282.5,-438 31.5,-438 31.5,-402 282.5,-402 282.5,-438"/>
 <text text-anchor="start" x="40" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="46" y="-422.2" font-family="Monospace" font-size="11.00">summary_3_constructor_58_233_0/35</text>
@@ -775,7 +775,7 @@
 <!-- contract_initializer_entry_29_htlc_233_0/35 -->
 <g id="node28" class="node">
 <title>contract_initializer_entry_29_htlc_233_0/35</title>
-<g id="a_node28"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node28"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="647.5,-320 328.5,-320 328.5,-284 647.5,-284 647.5,-320"/>
 <text text-anchor="start" x="337" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="343" y="-304.2" font-family="Monospace" font-size="11.00">contract_initializer_entry_29_htlc_233_0/35</text>
@@ -789,7 +789,7 @@
 <!-- contract_initializer_after_init_30_htlc_233_0/35 -->
 <g id="node29" class="node">
 <title>contract_initializer_after_init_30_htlc_233_0/35</title>
-<g id="a_node29"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node29"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="653.5,-438 300.5,-438 300.5,-402 653.5,-402 653.5,-438"/>
 <text text-anchor="start" x="309" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="315" y="-422.2" font-family="Monospace" font-size="11.00">contract_initializer_after_init_30_htlc_233_0/35</text>
@@ -813,7 +813,7 @@
 <!-- contract_initializer_28_htlc_233_0/35 -->
 <g id="node30" class="node">
 <title>contract_initializer_28_htlc_233_0/35</title>
-<g id="a_node30"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node30"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="296,-556 18,-556 18,-520 296,-520 296,-556"/>
 <text text-anchor="start" x="26" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="32" y="-540.2" font-family="Monospace" font-size="11.00">contract_initializer_28_htlc_233_0/35</text>
@@ -847,7 +847,7 @@
 <!-- implicit_constructor_entry_31_htlc_233_0/35 -->
 <g id="node31" class="node">
 <title>implicit_constructor_entry_31_htlc_233_0/35</title>
-<g id="a_node31"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node31"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="633.5,-556 314.5,-556 314.5,-520 633.5,-520 633.5,-556"/>
 <text text-anchor="start" x="323" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="329" y="-540.2" font-family="Monospace" font-size="11.00">implicit_constructor_entry_31_htlc_233_0/35</text>
@@ -881,7 +881,7 @@
 <!-- error_target_4_0/0 -->
 <g id="node33" class="node">
 <title>error_target_4_0/0</title>
-<g id="a_node33"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node33"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1348,-910 1198,-910 1198,-874 1348,-874 1348,-910"/>
 <text text-anchor="start" x="1206" y="-894.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1212" y="-894.2" font-family="Monospace" font-size="11.00">error_target_4_0/0</text>
@@ -925,7 +925,7 @@
 <!-- ff/0 -->
 <g id="node34" class="node">
 <title>ff/0</title>
-<g id="a_node34"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed.pl">
+<g id="a_node34"><a xlink:title="GITHUB/SmartContractToGraph/Htlc_reveal&#45;auth&#45;owner_v3_parsed">
 <polygon fill="cornsilk" stroke="black" points="1301,-1028 1245,-1028 1245,-992 1301,-992 1301,-1028"/>
 <text text-anchor="start" x="1253" y="-1012.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1259" y="-1012.2" font-family="Monospace" font-size="11.00">ff/0</text>

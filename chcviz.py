@@ -4,6 +4,7 @@ import shutil
 import sys
 import os
 import glob
+import time
 import myenv.CheckRequirement
 import myenv.SolToSmt
 import myenv.SmtParser
@@ -14,8 +15,10 @@ import myenv.DotToSvg
 
 def toolchain_for_file(solidity_file_with_path):
 
+    start_time = time.time()  # Start time for the conversion
     print("####################################")  # New line for clarity
 
+    
     # Check requirements first
     if not myenv.CheckRequirement.check_requirements():
         return
@@ -63,10 +66,14 @@ def toolchain_for_file(solidity_file_with_path):
     # Move the generated files to a folder with the same name as filename_without_extension
     move_files_to_folder(folder_path, filename_without_extension)
 
+    end_time = time.time()  # End time for the conversion
+    elapsed_time = end_time - start_time  # Calculate elapsed time
+
     print()  # New line for clarity
     print(f"Conversion completed for {solidity_file_with_path}.")
+    print(f"Time taken for conversion: {elapsed_time:.2f} seconds")  # Print the elapsed time
     print()  # New line for clarity
-
+    
 
 def toolchain_for_folder(folder_path, recursive=False):
     # If recursive=True, apply toolchain to all .sol files in the folder and its subfolders

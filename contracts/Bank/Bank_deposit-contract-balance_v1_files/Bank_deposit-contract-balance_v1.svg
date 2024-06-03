@@ -11,10 +11,10 @@
 <title>Bank_deposit&#45;contract&#45;balance_v1_parsed_object</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-959 1898,-959 1898,4 -4,4"/>
 <text text-anchor="start" x="8" y="-18" font-family="Monospace" font-size="10.00" fill="dimgray">Cross&#45;referencing diagram for object Bank_deposit&#45;contract&#45;balance_v1_parsed</text>
-<text text-anchor="start" x="8" y="-7" font-family="Monospace" font-size="10.00" fill="dimgray">Generated on 2024&#45;05&#45;09, 15:08</text>
+<text text-anchor="start" x="8" y="-7" font-family="Monospace" font-size="10.00" fill="dimgray">Generated on 2024&#45;06&#45;02, 18:31</text>
 <g id="clust1" class="cluster">
 <title>cluster_Bank_deposit&#45;contract&#45;balance_v1_parsed_object</title>
-<g id="a_clust1"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_clust1"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <path fill="snow" stroke="dimgray" d="M20,-38C20,-38 1874,-38 1874,-38 1880,-38 1886,-44 1886,-50 1886,-50 1886,-935 1886,-935 1886,-941 1880,-947 1874,-947 1874,-947 20,-947 20,-947 14,-947 8,-941 8,-935 8,-935 8,-50 8,-50 8,-44 14,-38 20,-38"/>
 <text text-anchor="start" x="20.5" y="-930.5" font-family="Monospace" font-size="10.00" fill="dimgray">Bank_deposit&#45;contract&#45;balance_v1_parsed</text>
 </a>
@@ -23,7 +23,7 @@
 <!-- nondet_interface_1_bank_91_0/8 -->
 <g id="node1" class="node">
 <title>nondet_interface_1_bank_91_0/8</title>
-<g id="a_node1"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node1"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1706.5,-674 1475.5,-674 1475.5,-638 1706.5,-638 1706.5,-674"/>
 <text text-anchor="start" x="1484" y="-658.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1490" y="-658.2" font-family="Monospace" font-size="11.00">nondet_interface_1_bank_91_0/8</text>
@@ -37,7 +37,7 @@
 <!-- summary_4_function_deposit__48_91_0/9 -->
 <g id="node8" class="node">
 <title>summary_4_function_deposit__48_91_0/9</title>
-<g id="a_node8"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node8"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1245,-556 967,-556 967,-520 1245,-520 1245,-556"/>
 <text text-anchor="start" x="975" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="981" y="-540.2" font-family="Monospace" font-size="11.00">summary_4_function_deposit__48_91_0/9</text>
@@ -61,7 +61,7 @@
 <!-- summary_6_function_withdraw__90_91_0/11 -->
 <g id="node16" class="node">
 <title>summary_6_function_withdraw__90_91_0/11</title>
-<g id="a_node16"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node16"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1737,-556 1445,-556 1445,-520 1737,-520 1737,-556"/>
 <text text-anchor="start" x="1453" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1459" y="-540.2" font-family="Monospace" font-size="11.00">summary_6_function_withdraw__90_91_0/11</text>
@@ -85,7 +85,7 @@
 <!-- block_7_function_deposit__48_91_0/11 -->
 <g id="node2" class="node">
 <title>block_7_function_deposit__48_91_0/11</title>
-<g id="a_node2"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node2"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1134,-84 862,-84 862,-48 1134,-48 1134,-84"/>
 <text text-anchor="start" x="870" y="-68.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="876" y="-68.2" font-family="Monospace" font-size="11.00">block_7_function_deposit__48_91_0/11</text>
@@ -99,7 +99,7 @@
 <!-- block_8_deposit_47_91_0/11 -->
 <g id="node3" class="node">
 <title>block_8_deposit_47_91_0/11</title>
-<g id="a_node3"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node3"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1100,-202 896,-202 896,-166 1100,-166 1100,-202"/>
 <text text-anchor="start" x="904" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="910" y="-186.2" font-family="Monospace" font-size="11.00">block_8_deposit_47_91_0/11</text>
@@ -123,7 +123,7 @@
 <!-- block_10_function_deposit__48_91_0/11 -->
 <g id="node4" class="node">
 <title>block_10_function_deposit__48_91_0/11</title>
-<g id="a_node4"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node4"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1316,-320 1038,-320 1038,-284 1316,-284 1316,-320"/>
 <text text-anchor="start" x="1046" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1052" y="-304.2" font-family="Monospace" font-size="11.00">block_10_function_deposit__48_91_0/11</text>
@@ -147,7 +147,7 @@
 <!-- summary_3_function_deposit__48_91_0/9 -->
 <g id="node5" class="node">
 <title>summary_3_function_deposit__48_91_0/9</title>
-<g id="a_node5"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node5"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1199,-438 921,-438 921,-402 1199,-402 1199,-438"/>
 <text text-anchor="start" x="929" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="935" y="-422.2" font-family="Monospace" font-size="11.00">summary_3_function_deposit__48_91_0/9</text>
@@ -171,7 +171,7 @@
 <!-- block_9_return_function_deposit__48_91_0/11 -->
 <g id="node6" class="node">
 <title>block_9_return_function_deposit__48_91_0/11</title>
-<g id="a_node6"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node6"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1019.5,-320 700.5,-320 700.5,-284 1019.5,-284 1019.5,-320"/>
 <text text-anchor="start" x="709" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="715" y="-304.2" font-family="Monospace" font-size="11.00">block_9_return_function_deposit__48_91_0/11</text>
@@ -205,7 +205,7 @@
 <!-- block_11_function_deposit__48_91_0/11 -->
 <g id="node7" class="node">
 <title>block_11_function_deposit__48_91_0/11</title>
-<g id="a_node7"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node7"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="903,-438 625,-438 625,-402 903,-402 903,-438"/>
 <text text-anchor="start" x="633" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="639" y="-422.2" font-family="Monospace" font-size="11.00">block_11_function_deposit__48_91_0/11</text>
@@ -239,7 +239,7 @@
 <!-- interface_0_bank_91_0/5 -->
 <g id="node9" class="node">
 <title>interface_0_bank_91_0/5</title>
-<g id="a_node9"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node9"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1335,-674 1151,-674 1151,-638 1335,-638 1335,-674"/>
 <text text-anchor="start" x="1159" y="-658.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1165" y="-658.2" font-family="Monospace" font-size="11.00">interface_0_bank_91_0/5</text>
@@ -273,7 +273,7 @@
 <!-- summary_constructor_2_bank_91_0/9 -->
 <g id="node21" class="node">
 <title>summary_constructor_2_bank_91_0/9</title>
-<g id="a_node21"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node21"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="599.5,-556 348.5,-556 348.5,-520 599.5,-520 599.5,-556"/>
 <text text-anchor="start" x="357" y="-540.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="363" y="-540.2" font-family="Monospace" font-size="11.00">summary_constructor_2_bank_91_0/9</text>
@@ -297,7 +297,7 @@
 <!-- block_12_function_withdraw__90_91_0/12 -->
 <g id="node10" class="node">
 <title>block_12_function_withdraw__90_91_0/12</title>
-<g id="a_node10"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node10"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1578.5,-84 1293.5,-84 1293.5,-48 1578.5,-48 1578.5,-84"/>
 <text text-anchor="start" x="1302" y="-68.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1308" y="-68.2" font-family="Monospace" font-size="11.00">block_12_function_withdraw__90_91_0/12</text>
@@ -311,7 +311,7 @@
 <!-- block_13_withdraw_89_91_0/12 -->
 <g id="node11" class="node">
 <title>block_13_withdraw_89_91_0/12</title>
-<g id="a_node11"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node11"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1545,-202 1327,-202 1327,-166 1545,-166 1545,-202"/>
 <text text-anchor="start" x="1335" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1341" y="-186.2" font-family="Monospace" font-size="11.00">block_13_withdraw_89_91_0/12</text>
@@ -335,7 +335,7 @@
 <!-- nondet_call_15_0/8 -->
 <g id="node12" class="node">
 <title>nondet_call_15_0/8</title>
-<g id="a_node12"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node12"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1876,-202 1726,-202 1726,-166 1876,-166 1876,-202"/>
 <text text-anchor="start" x="1734" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1740" y="-186.2" font-family="Monospace" font-size="11.00">nondet_call_15_0/8</text>
@@ -359,7 +359,7 @@
 <!-- summary_5_function_withdraw__90_91_0/11 -->
 <g id="node13" class="node">
 <title>summary_5_function_withdraw__90_91_0/11</title>
-<g id="a_node13"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node13"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1813,-438 1521,-438 1521,-402 1813,-402 1813,-438"/>
 <text text-anchor="start" x="1529" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1535" y="-422.2" font-family="Monospace" font-size="11.00">summary_5_function_withdraw__90_91_0/11</text>
@@ -393,7 +393,7 @@
 <!-- block_14_return_function_withdraw__90_91_0/12 -->
 <g id="node14" class="node">
 <title>block_14_return_function_withdraw__90_91_0/12</title>
-<g id="a_node14"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node14"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1767,-320 1435,-320 1435,-284 1767,-284 1767,-320"/>
 <text text-anchor="start" x="1443" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1449" y="-304.2" font-family="Monospace" font-size="11.00">block_14_return_function_withdraw__90_91_0/12</text>
@@ -437,7 +437,7 @@
 <!-- block_16_function_withdraw__90_91_0/12 -->
 <g id="node15" class="node">
 <title>block_16_function_withdraw__90_91_0/12</title>
-<g id="a_node15"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node15"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1502.5,-438 1217.5,-438 1217.5,-402 1502.5,-402 1502.5,-438"/>
 <text text-anchor="start" x="1226" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1232" y="-422.2" font-family="Monospace" font-size="11.00">block_16_function_withdraw__90_91_0/12</text>
@@ -471,7 +471,7 @@
 <!-- contract_initializer_entry_18_bank_91_0/9 -->
 <g id="node17" class="node">
 <title>contract_initializer_entry_18_bank_91_0/9</title>
-<g id="a_node17"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node17"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="626.5,-202 321.5,-202 321.5,-166 626.5,-166 626.5,-202"/>
 <text text-anchor="start" x="330" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="336" y="-186.2" font-family="Monospace" font-size="11.00">contract_initializer_entry_18_bank_91_0/9</text>
@@ -485,7 +485,7 @@
 <!-- contract_initializer_after_init_19_bank_91_0/9 -->
 <g id="node18" class="node">
 <title>contract_initializer_after_init_19_bank_91_0/9</title>
-<g id="a_node18"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node18"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="643.5,-320 304.5,-320 304.5,-284 643.5,-284 643.5,-320"/>
 <text text-anchor="start" x="313" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="319" y="-304.2" font-family="Monospace" font-size="11.00">contract_initializer_after_init_19_bank_91_0/9</text>
@@ -509,7 +509,7 @@
 <!-- contract_initializer_17_bank_91_0/9 -->
 <g id="node19" class="node">
 <title>contract_initializer_17_bank_91_0/9</title>
-<g id="a_node19"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node19"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="606.5,-438 341.5,-438 341.5,-402 606.5,-402 606.5,-438"/>
 <text text-anchor="start" x="350" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="356" y="-422.2" font-family="Monospace" font-size="11.00">contract_initializer_17_bank_91_0/9</text>
@@ -533,7 +533,7 @@
 <!-- implicit_constructor_entry_20_bank_91_0/9 -->
 <g id="node20" class="node">
 <title>implicit_constructor_entry_20_bank_91_0/9</title>
-<g id="a_node20"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node20"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="323.5,-438 18.5,-438 18.5,-402 323.5,-402 323.5,-438"/>
 <text text-anchor="start" x="27" y="-422.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="33" y="-422.2" font-family="Monospace" font-size="11.00">implicit_constructor_entry_20_bank_91_0/9</text>
@@ -567,7 +567,7 @@
 <!-- error_target_4_0/0 -->
 <g id="node22" class="node">
 <title>error_target_4_0/0</title>
-<g id="a_node22"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node22"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1318,-792 1168,-792 1168,-756 1318,-756 1318,-792"/>
 <text text-anchor="start" x="1176" y="-776.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1182" y="-776.2" font-family="Monospace" font-size="11.00">error_target_4_0/0</text>
@@ -611,7 +611,7 @@
 <!-- ff/0 -->
 <g id="node23" class="node">
 <title>ff/0</title>
-<g id="a_node23"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed.pl">
+<g id="a_node23"><a xlink:title="GITHUB/SmartContractToGraph/Bank_deposit&#45;contract&#45;balance_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1271,-910 1215,-910 1215,-874 1271,-874 1271,-910"/>
 <text text-anchor="start" x="1223" y="-894.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1229" y="-894.2" font-family="Monospace" font-size="11.00">ff/0</text>

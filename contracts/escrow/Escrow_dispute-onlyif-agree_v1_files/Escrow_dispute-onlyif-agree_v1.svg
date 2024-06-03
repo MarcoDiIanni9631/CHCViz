@@ -11,10 +11,10 @@
 <title>Escrow_dispute&#45;onlyif&#45;agree_v1_parsed_object</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-1103 4076,-1103 4076,4 -4,4"/>
 <text text-anchor="start" x="8" y="-18" font-family="Monospace" font-size="10.00" fill="dimgray">Cross&#45;referencing diagram for object Escrow_dispute&#45;onlyif&#45;agree_v1_parsed</text>
-<text text-anchor="start" x="8" y="-7" font-family="Monospace" font-size="10.00" fill="dimgray">Generated on 2024&#45;05&#45;09, 22:58</text>
+<text text-anchor="start" x="8" y="-7" font-family="Monospace" font-size="10.00" fill="dimgray">Generated on 2024&#45;06&#45;02, 18:32</text>
 <g id="clust1" class="cluster">
 <title>cluster_Escrow_dispute&#45;onlyif&#45;agree_v1_parsed_object</title>
-<g id="a_clust1"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_clust1"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <path fill="snow" stroke="dimgray" d="M20,-38C20,-38 4024,-38 4024,-38 4030,-38 4036,-44 4036,-50 4036,-50 4036,-1079 4036,-1079 4036,-1085 4030,-1091 4024,-1091 4024,-1091 20,-1091 20,-1091 14,-1091 8,-1085 8,-1079 8,-1079 8,-50 8,-50 8,-44 14,-38 20,-38"/>
 <text text-anchor="start" x="20.5" y="-1074.5" font-family="Monospace" font-size="10.00" fill="dimgray">Escrow_dispute&#45;onlyif&#45;agree_v1_parsed</text>
 </a>
@@ -23,7 +23,7 @@
 <!-- nondet_interface_1_escrow_258_0/20 -->
 <g id="node1" class="node">
 <title>nondet_interface_1_escrow_258_0/20</title>
-<g id="a_node1"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node1"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2899,-818 2641,-818 2641,-782 2899,-782 2899,-818"/>
 <text text-anchor="start" x="2649" y="-802.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2655" y="-802.2" font-family="Monospace" font-size="11.00">nondet_interface_1_escrow_258_0/20</text>
@@ -37,7 +37,7 @@
 <!-- summary_5_function_approve_payment__115_258_0/21 -->
 <g id="node8" class="node">
 <title>summary_5_function_approve_payment__115_258_0/21</title>
-<g id="a_node8"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node8"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2750.5,-700 2397.5,-700 2397.5,-664 2750.5,-664 2750.5,-700"/>
 <text text-anchor="start" x="2406" y="-684.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2412" y="-684.2" font-family="Monospace" font-size="11.00">summary_5_function_approve_payment__115_258_0/21</text>
@@ -61,7 +61,7 @@
 <!-- summary_7_function_refund__139_258_0/21 -->
 <g id="node16" class="node">
 <title>summary_7_function_refund__139_258_0/21</title>
-<g id="a_node16"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node16"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3081,-700 2789,-700 2789,-664 3081,-664 3081,-700"/>
 <text text-anchor="start" x="2797" y="-684.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2803" y="-684.2" font-family="Monospace" font-size="11.00">summary_7_function_refund__139_258_0/21</text>
@@ -85,7 +85,7 @@
 <!-- summary_9_function_open_dispute__178_258_0/21 -->
 <g id="node24" class="node">
 <title>summary_9_function_open_dispute__178_258_0/21</title>
-<g id="a_node24"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node24"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2042,-700 1710,-700 1710,-664 2042,-664 2042,-700"/>
 <text text-anchor="start" x="1718" y="-684.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1724" y="-684.2" font-family="Monospace" font-size="11.00">summary_9_function_open_dispute__178_258_0/21</text>
@@ -109,7 +109,7 @@
 <!-- summary_11_function_arbitrate__231_258_0/23 -->
 <g id="node32" class="node">
 <title>summary_11_function_arbitrate__231_258_0/23</title>
-<g id="a_node32"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node32"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2379.5,-700 2060.5,-700 2060.5,-664 2379.5,-664 2379.5,-700"/>
 <text text-anchor="start" x="2069" y="-684.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2075" y="-684.2" font-family="Monospace" font-size="11.00">summary_11_function_arbitrate__231_258_0/23</text>
@@ -133,7 +133,7 @@
 <!-- summary_13_function_redeem__257_258_0/21 -->
 <g id="node40" class="node">
 <title>summary_13_function_redeem__257_258_0/21</title>
-<g id="a_node40"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node40"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3695.5,-700 3396.5,-700 3396.5,-664 3695.5,-664 3695.5,-700"/>
 <text text-anchor="start" x="3405" y="-684.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3411" y="-684.2" font-family="Monospace" font-size="11.00">summary_13_function_redeem__257_258_0/21</text>
@@ -157,7 +157,7 @@
 <!-- block_14_function_approve_payment__115_258_0/22 -->
 <g id="node2" class="node">
 <title>block_14_function_approve_payment__115_258_0/22</title>
-<g id="a_node2"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node2"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2727,-84 2381,-84 2381,-48 2727,-48 2727,-84"/>
 <text text-anchor="start" x="2389" y="-68.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2395" y="-68.2" font-family="Monospace" font-size="11.00">block_14_function_approve_payment__115_258_0/22</text>
@@ -171,7 +171,7 @@
 <!-- block_15_approve_payment_114_258_0/22 -->
 <g id="node3" class="node">
 <title>block_15_approve_payment_114_258_0/22</title>
-<g id="a_node3"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node3"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2693,-202 2415,-202 2415,-166 2693,-166 2693,-202"/>
 <text text-anchor="start" x="2423" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2429" y="-186.2" font-family="Monospace" font-size="11.00">block_15_approve_payment_114_258_0/22</text>
@@ -195,7 +195,7 @@
 <!-- block_17_return_function_approve_payment__115_258_0/22 -->
 <g id="node4" class="node">
 <title>block_17_return_function_approve_payment__115_258_0/22</title>
-<g id="a_node4"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node4"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2750.5,-320 2357.5,-320 2357.5,-284 2750.5,-284 2750.5,-320"/>
 <text text-anchor="start" x="2366" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2372" y="-304.2" font-family="Monospace" font-size="11.00">block_17_return_function_approve_payment__115_258_0/22</text>
@@ -219,7 +219,7 @@
 <!-- block_16_return_approve_payment_32_258_0/22 -->
 <g id="node5" class="node">
 <title>block_16_return_approve_payment_32_258_0/22</title>
-<g id="a_node5"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node5"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2726.5,-464 2407.5,-464 2407.5,-428 2726.5,-428 2726.5,-464"/>
 <text text-anchor="start" x="2416" y="-448.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2422" y="-448.2" font-family="Monospace" font-size="11.00">block_16_return_approve_payment_32_258_0/22</text>
@@ -243,7 +243,7 @@
 <!-- summary_4_function_approve_payment__115_258_0/21 -->
 <g id="node6" class="node">
 <title>summary_4_function_approve_payment__115_258_0/21</title>
-<g id="a_node6"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node6"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2750.5,-582 2397.5,-582 2397.5,-546 2750.5,-546 2750.5,-582"/>
 <text text-anchor="start" x="2406" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2412" y="-566.2" font-family="Monospace" font-size="11.00">summary_4_function_approve_payment__115_258_0/21</text>
@@ -267,7 +267,7 @@
 <!-- block_18_function_approve_payment__115_258_0/22 -->
 <g id="node7" class="node">
 <title>block_18_function_approve_payment__115_258_0/22</title>
-<g id="a_node7"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node7"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2379,-582 2033,-582 2033,-546 2379,-546 2379,-582"/>
 <text text-anchor="start" x="2041" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2047" y="-566.2" font-family="Monospace" font-size="11.00">block_18_function_approve_payment__115_258_0/22</text>
@@ -301,7 +301,7 @@
 <!-- interface_0_escrow_258_0/11 -->
 <g id="node9" class="node">
 <title>interface_0_escrow_258_0/11</title>
-<g id="a_node9"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node9"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2476.5,-818 2265.5,-818 2265.5,-782 2476.5,-782 2476.5,-818"/>
 <text text-anchor="start" x="2274" y="-802.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2280" y="-802.2" font-family="Monospace" font-size="11.00">interface_0_escrow_258_0/11</text>
@@ -365,7 +365,7 @@
 <!-- summary_constructor_2_escrow_258_0/27 -->
 <g id="node49" class="node">
 <title>summary_constructor_2_escrow_258_0/27</title>
-<g id="a_node49"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node49"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="633,-700 355,-700 355,-664 633,-664 633,-700"/>
 <text text-anchor="start" x="363" y="-684.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="369" y="-684.2" font-family="Monospace" font-size="11.00">summary_constructor_2_escrow_258_0/27</text>
@@ -389,7 +389,7 @@
 <!-- block_19_function_refund__139_258_0/22 -->
 <g id="node10" class="node">
 <title>block_19_function_refund__139_258_0/22</title>
-<g id="a_node10"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node10"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3381.5,-84 3096.5,-84 3096.5,-48 3381.5,-48 3381.5,-84"/>
 <text text-anchor="start" x="3105" y="-68.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3111" y="-68.2" font-family="Monospace" font-size="11.00">block_19_function_refund__139_258_0/22</text>
@@ -403,7 +403,7 @@
 <!-- block_20_refund_138_258_0/22 -->
 <g id="node11" class="node">
 <title>block_20_refund_138_258_0/22</title>
-<g id="a_node11"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node11"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3348,-202 3130,-202 3130,-166 3348,-166 3348,-202"/>
 <text text-anchor="start" x="3138" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3144" y="-186.2" font-family="Monospace" font-size="11.00">block_20_refund_138_258_0/22</text>
@@ -427,7 +427,7 @@
 <!-- block_22_return_function_refund__139_258_0/22 -->
 <g id="node12" class="node">
 <title>block_22_return_function_refund__139_258_0/22</title>
-<g id="a_node12"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node12"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3405,-320 3073,-320 3073,-284 3405,-284 3405,-320"/>
 <text text-anchor="start" x="3081" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3087" y="-304.2" font-family="Monospace" font-size="11.00">block_22_return_function_refund__139_258_0/22</text>
@@ -451,7 +451,7 @@
 <!-- block_21_return_refund_32_258_0/22 -->
 <g id="node13" class="node">
 <title>block_21_return_refund_32_258_0/22</title>
-<g id="a_node13"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node13"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3368,-464 3110,-464 3110,-428 3368,-428 3368,-464"/>
 <text text-anchor="start" x="3118" y="-448.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3124" y="-448.2" font-family="Monospace" font-size="11.00">block_21_return_refund_32_258_0/22</text>
@@ -475,7 +475,7 @@
 <!-- summary_6_function_refund__139_258_0/21 -->
 <g id="node14" class="node">
 <title>summary_6_function_refund__139_258_0/21</title>
-<g id="a_node14"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node14"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3385,-582 3093,-582 3093,-546 3385,-546 3385,-582"/>
 <text text-anchor="start" x="3101" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3107" y="-566.2" font-family="Monospace" font-size="11.00">summary_6_function_refund__139_258_0/21</text>
@@ -499,7 +499,7 @@
 <!-- block_23_function_refund__139_258_0/22 -->
 <g id="node15" class="node">
 <title>block_23_function_refund__139_258_0/22</title>
-<g id="a_node15"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node15"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3074.5,-582 2789.5,-582 2789.5,-546 3074.5,-546 3074.5,-582"/>
 <text text-anchor="start" x="2798" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2804" y="-566.2" font-family="Monospace" font-size="11.00">block_23_function_refund__139_258_0/22</text>
@@ -533,7 +533,7 @@
 <!-- block_24_function_open_dispute__178_258_0/23 -->
 <g id="node17" class="node">
 <title>block_24_function_open_dispute__178_258_0/23</title>
-<g id="a_node17"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node17"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1235,-84 909,-84 909,-48 1235,-48 1235,-84"/>
 <text text-anchor="start" x="917" y="-68.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="923" y="-68.2" font-family="Monospace" font-size="11.00">block_24_function_open_dispute__178_258_0/23</text>
@@ -547,7 +547,7 @@
 <!-- block_25_open_dispute_177_258_0/23 -->
 <g id="node18" class="node">
 <title>block_25_open_dispute_177_258_0/23</title>
-<g id="a_node18"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node18"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1201,-202 943,-202 943,-166 1201,-166 1201,-202"/>
 <text text-anchor="start" x="951" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="957" y="-186.2" font-family="Monospace" font-size="11.00">block_25_open_dispute_177_258_0/23</text>
@@ -571,7 +571,7 @@
 <!-- block_28_function_open_dispute__178_258_0/23 -->
 <g id="node19" class="node">
 <title>block_28_function_open_dispute__178_258_0/23</title>
-<g id="a_node19"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node19"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1237,-392 911,-392 911,-356 1237,-356 1237,-392"/>
 <text text-anchor="start" x="919" y="-376.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="925" y="-376.2" font-family="Monospace" font-size="11.00">block_28_function_open_dispute__178_258_0/23</text>
@@ -595,7 +595,7 @@
 <!-- summary_8_function_open_dispute__178_258_0/21 -->
 <g id="node20" class="node">
 <title>summary_8_function_open_dispute__178_258_0/21</title>
-<g id="a_node20"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node20"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1010,-582 678,-582 678,-546 1010,-546 1010,-582"/>
 <text text-anchor="start" x="686" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="692" y="-566.2" font-family="Monospace" font-size="11.00">summary_8_function_open_dispute__178_258_0/21</text>
@@ -619,7 +619,7 @@
 <!-- block_26_return_open_dispute_32_258_0/23 -->
 <g id="node22" class="node">
 <title>block_26_return_open_dispute_32_258_0/23</title>
-<g id="a_node22"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node22"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1002.5,-464 703.5,-464 703.5,-428 1002.5,-428 1002.5,-464"/>
 <text text-anchor="start" x="712" y="-448.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="718" y="-448.2" font-family="Monospace" font-size="11.00">block_26_return_open_dispute_32_258_0/23</text>
@@ -643,7 +643,7 @@
 <!-- block_27_return_function_open_dispute__178_258_0/23 -->
 <g id="node21" class="node">
 <title>block_27_return_function_open_dispute__178_258_0/23</title>
-<g id="a_node21"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node21"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1051.5,-320 678.5,-320 678.5,-284 1051.5,-284 1051.5,-320"/>
 <text text-anchor="start" x="687" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="693" y="-304.2" font-family="Monospace" font-size="11.00">block_27_return_function_open_dispute__178_258_0/23</text>
@@ -677,7 +677,7 @@
 <!-- block_29_function_open_dispute__178_258_0/23 -->
 <g id="node23" class="node">
 <title>block_29_function_open_dispute__178_258_0/23</title>
-<g id="a_node23"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node23"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1354,-582 1028,-582 1028,-546 1354,-546 1354,-582"/>
 <text text-anchor="start" x="1036" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1042" y="-566.2" font-family="Monospace" font-size="11.00">block_29_function_open_dispute__178_258_0/23</text>
@@ -711,7 +711,7 @@
 <!-- block_30_function_arbitrate__231_258_0/25 -->
 <g id="node25" class="node">
 <title>block_30_function_arbitrate__231_258_0/25</title>
-<g id="a_node25"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node25"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1674.5,-84 1369.5,-84 1369.5,-48 1674.5,-48 1674.5,-84"/>
 <text text-anchor="start" x="1378" y="-68.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1384" y="-68.2" font-family="Monospace" font-size="11.00">block_30_function_arbitrate__231_258_0/25</text>
@@ -725,7 +725,7 @@
 <!-- block_31_arbitrate_230_258_0/25 -->
 <g id="node26" class="node">
 <title>block_31_arbitrate_230_258_0/25</title>
-<g id="a_node26"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node26"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1641,-202 1403,-202 1403,-166 1641,-166 1641,-202"/>
 <text text-anchor="start" x="1411" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1417" y="-186.2" font-family="Monospace" font-size="11.00">block_31_arbitrate_230_258_0/25</text>
@@ -749,7 +749,7 @@
 <!-- nondet_call_34_0/20 -->
 <g id="node27" class="node">
 <title>nondet_call_34_0/20</title>
-<g id="a_node27"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node27"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1831.5,-202 1674.5,-202 1674.5,-166 1831.5,-166 1831.5,-202"/>
 <text text-anchor="start" x="1683" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1689" y="-186.2" font-family="Monospace" font-size="11.00">nondet_call_34_0/20</text>
@@ -773,7 +773,7 @@
 <!-- summary_10_function_arbitrate__231_258_0/23 -->
 <g id="node28" class="node">
 <title>summary_10_function_arbitrate__231_258_0/23</title>
-<g id="a_node28"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node28"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1691.5,-582 1372.5,-582 1372.5,-546 1691.5,-546 1691.5,-582"/>
 <text text-anchor="start" x="1381" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1387" y="-566.2" font-family="Monospace" font-size="11.00">summary_10_function_arbitrate__231_258_0/23</text>
@@ -807,7 +807,7 @@
 <!-- block_32_return_arbitrate_32_258_0/25 -->
 <g id="node30" class="node">
 <title>block_32_return_arbitrate_32_258_0/25</title>
-<g id="a_node30"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node30"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1864,-464 1586,-464 1586,-428 1864,-428 1864,-464"/>
 <text text-anchor="start" x="1594" y="-448.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1600" y="-448.2" font-family="Monospace" font-size="11.00">block_32_return_arbitrate_32_258_0/25</text>
@@ -831,7 +831,7 @@
 <!-- block_33_return_function_arbitrate__231_258_0/25 -->
 <g id="node29" class="node">
 <title>block_33_return_function_arbitrate__231_258_0/25</title>
-<g id="a_node29"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node29"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="1929.5,-320 1576.5,-320 1576.5,-284 1929.5,-284 1929.5,-320"/>
 <text text-anchor="start" x="1585" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1591" y="-304.2" font-family="Monospace" font-size="11.00">block_33_return_function_arbitrate__231_258_0/25</text>
@@ -875,7 +875,7 @@
 <!-- block_35_function_arbitrate__231_258_0/25 -->
 <g id="node31" class="node">
 <title>block_35_function_arbitrate__231_258_0/25</title>
-<g id="a_node31"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node31"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2014.5,-582 1709.5,-582 1709.5,-546 2014.5,-546 2014.5,-582"/>
 <text text-anchor="start" x="1718" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="1724" y="-566.2" font-family="Monospace" font-size="11.00">block_35_function_arbitrate__231_258_0/25</text>
@@ -909,7 +909,7 @@
 <!-- block_36_function_redeem__257_258_0/23 -->
 <g id="node33" class="node">
 <title>block_36_function_redeem__257_258_0/23</title>
-<g id="a_node33"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node33"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3810.5,-84 3525.5,-84 3525.5,-48 3810.5,-48 3810.5,-84"/>
 <text text-anchor="start" x="3534" y="-68.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3540" y="-68.2" font-family="Monospace" font-size="11.00">block_36_function_redeem__257_258_0/23</text>
@@ -923,7 +923,7 @@
 <!-- block_37_redeem_256_258_0/23 -->
 <g id="node34" class="node">
 <title>block_37_redeem_256_258_0/23</title>
-<g id="a_node34"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node34"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3777,-202 3559,-202 3559,-166 3777,-166 3777,-202"/>
 <text text-anchor="start" x="3567" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3573" y="-186.2" font-family="Monospace" font-size="11.00">block_37_redeem_256_258_0/23</text>
@@ -947,7 +947,7 @@
 <!-- nondet_call_40_0/20 -->
 <g id="node35" class="node">
 <title>nondet_call_40_0/20</title>
-<g id="a_node35"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node35"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="4025.5,-202 3868.5,-202 3868.5,-166 4025.5,-166 4025.5,-202"/>
 <text text-anchor="start" x="3877" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3883" y="-186.2" font-family="Monospace" font-size="11.00">nondet_call_40_0/20</text>
@@ -971,7 +971,7 @@
 <!-- summary_12_function_redeem__257_258_0/21 -->
 <g id="node36" class="node">
 <title>summary_12_function_redeem__257_258_0/21</title>
-<g id="a_node36"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node36"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="4005.5,-582 3706.5,-582 3706.5,-546 4005.5,-546 4005.5,-582"/>
 <text text-anchor="start" x="3715" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3721" y="-566.2" font-family="Monospace" font-size="11.00">summary_12_function_redeem__257_258_0/21</text>
@@ -1005,7 +1005,7 @@
 <!-- block_38_return_redeem_32_258_0/23 -->
 <g id="node38" class="node">
 <title>block_38_return_redeem_32_258_0/23</title>
-<g id="a_node38"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node38"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3929,-464 3671,-464 3671,-428 3929,-428 3929,-464"/>
 <text text-anchor="start" x="3679" y="-448.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3685" y="-448.2" font-family="Monospace" font-size="11.00">block_38_return_redeem_32_258_0/23</text>
@@ -1029,7 +1029,7 @@
 <!-- block_39_return_function_redeem__257_258_0/23 -->
 <g id="node37" class="node">
 <title>block_39_return_function_redeem__257_258_0/23</title>
-<g id="a_node37"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node37"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3947,-320 3615,-320 3615,-284 3947,-284 3947,-320"/>
 <text text-anchor="start" x="3623" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3629" y="-304.2" font-family="Monospace" font-size="11.00">block_39_return_function_redeem__257_258_0/23</text>
@@ -1073,7 +1073,7 @@
 <!-- block_41_function_redeem__257_258_0/23 -->
 <g id="node39" class="node">
 <title>block_41_function_redeem__257_258_0/23</title>
-<g id="a_node39"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node39"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="3688.5,-582 3403.5,-582 3403.5,-546 3688.5,-546 3688.5,-582"/>
 <text text-anchor="start" x="3412" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="3418" y="-566.2" font-family="Monospace" font-size="11.00">block_41_function_redeem__257_258_0/23</text>
@@ -1107,7 +1107,7 @@
 <!-- block_42_constructor_91_258_0/27 -->
 <g id="node41" class="node">
 <title>block_42_constructor_91_258_0/27</title>
-<g id="a_node41"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node41"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="286.5,-84 41.5,-84 41.5,-48 286.5,-48 286.5,-84"/>
 <text text-anchor="start" x="50" y="-68.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="56" y="-68.2" font-family="Monospace" font-size="11.00">block_42_constructor_91_258_0/27</text>
@@ -1121,7 +1121,7 @@
 <!-- block_43__90_258_0/27 -->
 <g id="node42" class="node">
 <title>block_43__90_258_0/27</title>
-<g id="a_node42"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node42"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="249,-202 79,-202 79,-166 249,-166 249,-202"/>
 <text text-anchor="start" x="87" y="-186.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="93" y="-186.2" font-family="Monospace" font-size="11.00">block_43__90_258_0/27</text>
@@ -1145,7 +1145,7 @@
 <!-- block_44_return_constructor_91_258_0/27 -->
 <g id="node43" class="node">
 <title>block_44_return_constructor_91_258_0/27</title>
-<g id="a_node43"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node43"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="310,-320 18,-320 18,-284 310,-284 310,-320"/>
 <text text-anchor="start" x="26" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="32" y="-304.2" font-family="Monospace" font-size="11.00">block_44_return_constructor_91_258_0/27</text>
@@ -1169,7 +1169,7 @@
 <!-- summary_3_constructor_91_258_0/27 -->
 <g id="node44" class="node">
 <title>summary_3_constructor_91_258_0/27</title>
-<g id="a_node44"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node44"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="289.5,-464 38.5,-464 38.5,-428 289.5,-428 289.5,-464"/>
 <text text-anchor="start" x="47" y="-448.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="53" y="-448.2" font-family="Monospace" font-size="11.00">summary_3_constructor_91_258_0/27</text>
@@ -1193,7 +1193,7 @@
 <!-- contract_initializer_entry_46_escrow_258_0/27 -->
 <g id="node45" class="node">
 <title>contract_initializer_entry_46_escrow_258_0/27</title>
-<g id="a_node45"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node45"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="660,-320 328,-320 328,-284 660,-284 660,-320"/>
 <text text-anchor="start" x="336" y="-304.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="342" y="-304.2" font-family="Monospace" font-size="11.00">contract_initializer_entry_46_escrow_258_0/27</text>
@@ -1207,7 +1207,7 @@
 <!-- contract_initializer_after_init_47_escrow_258_0/27 -->
 <g id="node46" class="node">
 <title>contract_initializer_after_init_47_escrow_258_0/27</title>
-<g id="a_node46"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node46"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="675,-464 309,-464 309,-428 675,-428 675,-464"/>
 <text text-anchor="start" x="317" y="-448.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="323" y="-448.2" font-family="Monospace" font-size="11.00">contract_initializer_after_init_47_escrow_258_0/27</text>
@@ -1231,7 +1231,7 @@
 <!-- contract_initializer_45_escrow_258_0/27 -->
 <g id="node47" class="node">
 <title>contract_initializer_45_escrow_258_0/27</title>
-<g id="a_node47"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node47"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="310,-582 18,-582 18,-546 310,-546 310,-582"/>
 <text text-anchor="start" x="26" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="32" y="-566.2" font-family="Monospace" font-size="11.00">contract_initializer_45_escrow_258_0/27</text>
@@ -1265,7 +1265,7 @@
 <!-- implicit_constructor_entry_48_escrow_258_0/27 -->
 <g id="node48" class="node">
 <title>implicit_constructor_entry_48_escrow_258_0/27</title>
-<g id="a_node48"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node48"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="660,-582 328,-582 328,-546 660,-546 660,-582"/>
 <text text-anchor="start" x="336" y="-566.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="342" y="-566.2" font-family="Monospace" font-size="11.00">implicit_constructor_entry_48_escrow_258_0/27</text>
@@ -1299,7 +1299,7 @@
 <!-- error_target_6_0/0 -->
 <g id="node50" class="node">
 <title>error_target_6_0/0</title>
-<g id="a_node50"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node50"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2339,-936 2189,-936 2189,-900 2339,-900 2339,-936"/>
 <text text-anchor="start" x="2197" y="-920.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2203" y="-920.2" font-family="Monospace" font-size="11.00">error_target_6_0/0</text>
@@ -1353,7 +1353,7 @@
 <!-- ff/0 -->
 <g id="node51" class="node">
 <title>ff/0</title>
-<g id="a_node51"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed.pl">
+<g id="a_node51"><a xlink:title="GITHUB/SmartContractToGraph/Escrow_dispute&#45;onlyif&#45;agree_v1_parsed">
 <polygon fill="cornsilk" stroke="black" points="2292,-1054 2236,-1054 2236,-1018 2292,-1018 2292,-1054"/>
 <text text-anchor="start" x="2244" y="-1038.8" font-family="Monospace" font-size="9.00"> </text>
 <text text-anchor="start" x="2250" y="-1038.2" font-family="Monospace" font-size="11.00">ff/0</text>
