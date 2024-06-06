@@ -5,6 +5,7 @@ import sys
 import os
 import glob
 import time
+import csv
 import myenv.CheckRequirement
 import myenv.SolToSmt
 import myenv.SmtParser
@@ -13,12 +14,14 @@ import myenv.PlParser
 import myenv.PlToDot_swi
 import myenv.DotToSvg
 
+csv_logging_enabled = False  # Global flag to enable/disable CSV logging
+csv_file_path = "conversion_times.csv"  # Default CSV file path
+
 def toolchain_for_file(solidity_file_with_path):
 
     start_time = time.time()  # Start time for the conversion
     print("####################################")  # New line for clarity
 
-    
     # Check requirements first
     if not myenv.CheckRequirement.check_requirements():
         return
@@ -30,7 +33,7 @@ def toolchain_for_file(solidity_file_with_path):
     solidity_file = os.path.basename(solidity_file_with_path)
     filename_without_extension = os.path.splitext(solidity_file)[0]  # Extract filename without extension
 
-    output_file = f"{filename_without_extension}.txt" 
+    output_file = f"{filename_without_extension}.txt"
     smtParsed = f"{filename_without_extension}.smt2"
     outputProlog = f"{filename_without_extension}.pl"
     prologParsed = f"{filename_without_extension}_parsed"
@@ -68,6 +71,9 @@ def toolchain_for_file(solidity_file_with_path):
 
     end_time = time.time()  # End time for the conversion
     elapsed_time = end_time - start_time  # Calculate elapsed time
+
+    if csv_logging_enabled:
+        log_to_csv(solidity_file_with_path, elapsed_time)
 
     print()  # New line for clarity
     print(f"Conversion completed for {solidity_file_with_path}.")
@@ -171,28 +177,60 @@ def move_files_to_folder(folder_path, filename_without_extension):
         else:
             print(f"File {file_to_move} does not exist, skipping move operation")
 
+
+def log_to_csv(solidity_file_with_path, elapsed_time):
+    # Check if the CSV file exists
+    file_exists = os.path.isfile(csv_file_path)
+
+    # Open the CSV file in append mode
+    with open(csv_file_path, 'a', newline='') as csvfile:
+        fieldnames = ['file', 'elapsed_time']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        # If the file doesn't exist, write the header
+        if not file_exists:
+            writer.writeheader()
+
+        # Write the file name and elapsed time
+        writer.writerow({'file': solidity_file_with_path, 'elapsed_time': f"{elapsed_time:.2f}"})
+
 # Check if the script is being run as the main program
 if __name__ == "__main__":
     # If a single .sol file is provided as command line argument, apply toolchain to that file
-    if len(sys.argv) == 2 and os.path.isfile(sys.argv[1]) and sys.argv[1].endswith(".sol"):
+    if len(sys.argv) >= 2 and os.path.isfile(sys.argv[1]) and sys.argv[1].endswith(".sol"):
         solidity_file_with_path = sys.argv[1]
         folder_path = os.path.dirname(solidity_file_with_path)
+        
+        # Check for CSV logging flag
+        if len(sys.argv) == 3 and sys.argv[2] == "--log-to-csv":
+            csv_logging_enabled = True
+        
         toolchain_for_file(solidity_file_with_path)
     # If a folder path is provided as command line argument without recursion
-    elif len(sys.argv) == 3 and sys.argv[1] == "-d" and os.path.isdir(sys.argv[2]):
+    elif len(sys.argv) >= 3 and sys.argv[1] == "-d" and os.path.isdir(sys.argv[2]):
         folder_path = sys.argv[2]
+        
+        # Check for CSV logging flag
+        if len(sys.argv) == 4 and sys.argv[3] == "--log-to-csv":
+            csv_logging_enabled = True
+        
         toolchain_for_folder(folder_path, recursive=False)
     # If a folder path is provided as command line argument with recursion
-    elif len(sys.argv) == 3 and sys.argv[1] == "-r" and os.path.isdir(sys.argv[2]):
+    elif len(sys.argv) >= 3 and sys.argv[1] == "-r" and os.path.isdir(sys.argv[2]):
         folder_path = sys.argv[2]
+        
+        # Check for CSV logging flag
+        if len(sys.argv) == 4 and sys.argv[3] == "--log-to-csv":
+            csv_logging_enabled = True
+        
         toolchain_for_folder(folder_path, recursive=True)
     else:
         print("Usage:")
         print("For a single .sol file:")
-        print("python3 chcviz.py <solidity_file_path>")
+        print("python3 chcviz.py <solidity_file_path> [--log-to-csv]")
         print()  # New line for clarity
         print("For processing a folder without recursion:")
-        print("python3 chcviz.py -d <directory_path>")
+        print("python3 chcviz.py -d <directory_path> [--log-to-csv]")
         print()  # New line for clarity
         print("For processing a folder with recursion:")
-        print("python3 chcviz.py -r <folder_path>")
+        print("python3 chcviz.py -r <folder_path> [--log-to-csv]")
