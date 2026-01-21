@@ -32,3 +32,7 @@ To use the toolchain, follow these steps:
 4. Navigate to the directory containing the repository.
 5. Execute the command `python chcviz.py <solidity_file>`, replacing `<solidity_file>` with the path to the Solidity file you want to convert.
 6. After the toolchain completes execution, you will find the generated SVG file containing the predicate dependency graph in the output directory.
+
+## Acknowledgments
+
+This project is partially supported by the PNRR project FAIR –- Future AI Research (PE00000013), Spoke 9 -- Green-aware AI, under the NRRP MUR program funded by the NextGenerationEU.
