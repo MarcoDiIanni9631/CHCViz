@@ -12,5 +12,5 @@
   consult(File),
   {diagrams(loader), hook_objects(loader)},
   logtalk_load(BName, [hook(object_wrapper_hook)]), 
-  xref_diagram::entity(BName).
+  xref_diagram::entity(BName, [recursive_relations(true)]).
 :-halt.
