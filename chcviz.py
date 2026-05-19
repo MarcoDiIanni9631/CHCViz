@@ -81,6 +81,67 @@ def toolchain_for_file(solidity_file_with_path):
     print()  # New line for clarity
     
 
+def toolchain_for_pl(pl_file_with_path):
+    start_time = time.time()
+    print("####################################")
+
+    pl_file_with_path = os.path.realpath(pl_file_with_path)
+    pl_dir = os.path.dirname(pl_file_with_path)
+    pl_file = os.path.basename(pl_file_with_path)
+    name_without_ext = os.path.splitext(pl_file)[0]   # e.g. "RewardSystem.t"
+    clean_name = f"{name_without_ext}_clean"           # e.g. "RewardSystem.t_clean"
+
+    chcviz_dir = os.path.dirname(os.path.realpath(__file__))
+    swilgt_pl_src = os.path.join(chcviz_dir, "swilgt_pl2dot.pl")
+
+    print(f"Start of the conversion for {pl_file_with_path}.")
+    print()
+
+    # Step 1: remove :- directives
+    clean_file = os.path.join(pl_dir, f"{clean_name}.pl")
+    with open(pl_file_with_path) as f_in, open(clean_file, 'w') as f_out:
+        for line in f_in:
+            if not line.startswith(":-"):
+                f_out.write(line)
+    print(f"File pulito: {clean_file}")
+
+    # Step 2: copy swilgt_pl2dot.pl to pl_dir and create dot_dias/
+    swilgt_dest = os.path.join(pl_dir, "swilgt_pl2dot.pl")
+    shutil.copy(swilgt_pl_src, swilgt_dest)
+    os.makedirs(os.path.join(pl_dir, "dot_dias"), exist_ok=True)
+
+    orig_dir = os.getcwd()
+    os.chdir(pl_dir)
+
+    try:
+        # Step 3: run swilgt
+        subprocess.run(f"swilgt swilgt_pl2dot.pl {clean_name}", shell=True, stderr=subprocess.DEVNULL)
+
+        # Step 4: run dot
+        dot_file = os.path.join("dot_dias", f"{clean_name}_object_xref_diagram.dot")
+        svg_file = f"{dot_file}.svg"
+        if os.path.exists(dot_file):
+            dot_cmd = shutil.which("dot") or "/opt/conda/bin/dot"
+            env = os.environ.copy()
+            env["PATH"] = "/opt/conda/bin:" + env.get("PATH", "")
+            subprocess.run(f"{dot_cmd} -Tsvg {dot_file} -o {svg_file}", shell=True, check=True, env=env)
+            print(f"SVG scritto: {os.path.join(pl_dir, svg_file)}")
+        else:
+            print("Errore: dot file non trovato in dot_dias/")
+            return False
+    finally:
+        os.chdir(orig_dir)
+        for tmp in [clean_file, swilgt_dest]:
+            if os.path.exists(tmp):
+                os.remove(tmp)
+
+    elapsed_time = time.time() - start_time
+    print()
+    print(f"Conversione completata per {pl_file_with_path}.")
+    print(f"Tempo: {elapsed_time:.2f} secondi")
+    return True
+
+
 def toolchain_for_folder(folder_path, recursive=False):
     # If recursive=True, apply toolchain to all .sol files in the folder and its subfolders
     if recursive:
@@ -224,13 +285,19 @@ if __name__ == "__main__":
             csv_logging_enabled = True
         
         toolchain_for_folder(folder_path, recursive=True)
+    # If a single .pl file is provided, apply toolchain_for_pl
+    elif len(sys.argv) >= 2 and os.path.isfile(sys.argv[1]) and sys.argv[1].endswith(".pl"):
+        toolchain_for_pl(sys.argv[1])
     else:
         print("Usage:")
         print("For a single .sol file:")
         print("python3 chcviz.py <solidity_file_path> [--log-to-csv]")
-        print()  # New line for clarity
+        print()
+        print("For a single .pl file (CHC graph only):")
+        print("python3 chcviz.py <prolog_file_path.pl>")
+        print()
         print("For processing a folder without recursion:")
         print("python3 chcviz.py -d <directory_path> [--log-to-csv]")
-        print()  # New line for clarity
+        print()
         print("For processing a folder with recursion:")
         print("python3 chcviz.py -r <folder_path> [--log-to-csv]")
